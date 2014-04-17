@@ -1,0 +1,116 @@
+<!DOCTYPE html>	
+
+<!--
+Tiffany Huang
+Stephanie Lin
+Ursula Hardy
+Final-Project: Mashup App
+December 10, 2012
+This file provides the basic structure for the stalkurActor website. 
+-->
+
+<html>	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>stalkurActr.</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="stalkuractr.js" type="text/javascript"></script>
+		<link href="stalkuractr.css" type="text/css" rel="stylesheet" />
+		<!-- links to the Google font style-->
+		<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Grand+Hotel' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<header id="movieSearch">	
+			<div id="title">
+				<h1>stalkurActr.</h1>	
+			</div>
+			
+			<div id="search">
+				<h2>Please search for a movie!</h2><br>
+				<input type="text" id="query">
+				<button id="fetchRT">Stalk Movie!</button>
+			</div>
+		</header>	
+		
+		<article id="splashpage">
+			<section id="picture">
+				 <div id="pic">
+				 	<img src="splashpage.jpg" alt="Splashpage">  
+				 </div>	
+			</section>
+		</article>
+		
+		<article id="noResults">
+			<section id="message">
+				<div id="resultMessage">
+					<!-- This displays a no result found message-->
+				</div>
+			</section>
+		</article>
+		
+		<article id="leftRT">	
+			<section id="movieInfo">
+				<div class="column">
+					<p id="movieOutput">
+						<!-- movie poster injected here-->
+					</p> 
+				</div>
+			</section>	
+		</article>
+		
+		<article id="centerTumblr">
+			<section id="actorPics">
+				<h1 id="nameOfActor"></h1>
+				<div id="centerMessages">
+					<p>No Tumblr Images Found<p>
+				</div>
+				<div id="gallery">
+					<!-- tumblr images get injected here -->
+				</div>
+		
+				<div id="popOutPic"> 
+					<div id="container">
+						<div id="floater"></div>
+						<a id="prev" href="">&#x27E8;</a>
+						<a id="next" href="">&#x27E9;</a>	
+					</div>
+				</div>
+			</section>	
+		</article>	
+		
+		<article id="rightRT">
+			<section id="actorSection">
+				<div class="button">
+					<ul>
+						<li id="notRightResult">Not Right Result?</li>
+						<li class="selectionButton" id="prevMovie">Previous Movie</li>
+						<li class="selectionButton" id="nextMovie">Next Movie</li>
+					</ul>
+				</div>
+				<div class="button">
+					<ul>	
+						<li><div class="selectionButton" id="displayActorButton">Stalk an Actor</div></li>
+					</ul>
+				</div>	
+				
+				<div id="actorsList">
+					<!-- names of movie actors get injected here -->
+				</div>
+				
+				<div class="button">
+					<ul>
+						<li><div class="selectionButton" id="nextActorButton">Next Actor</div></li>
+					</ul>
+				</div>
+				
+				<div id="actorsCharactersList">
+					<!-- list of movie actors and the characters they play get injected here -->	
+				</div>
+			</section>
+		</article>
+	</body>
+</html>

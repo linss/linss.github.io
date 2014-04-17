@@ -1,0 +1,251 @@
+/* 
+Tiffany Huang
+Stephanie Lin
+Ursula Hardy
+Final-Project: Mashup App
+December 10, 2012
+This file provides styling for stalkuractr.html.
+*/
+
+body {
+	padding: 0;
+	background-color: #303030;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Grand Hotel", cursive;
+}
+
+#pic img{
+	height:80%; 
+	width:auto;
+}
+
+#title {
+	float: left;
+	margin-left: 3.5em;
+}
+
+#title h1 {
+	font-size: 48px;
+	font-family: "Bookman Old Style", sans-serif;
+	color: #a3ccc7;
+	position: absolute;
+	line-height: 0em;
+}
+
+#search {
+	float: right;
+	margin-right: 0%;
+	padding-right: 0%;
+	margin-top: 1.5em;
+}
+
+#movieSearch {
+	line-height: 1em;
+	margin-top: 1.5em;
+}
+
+#movieSearch h2 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #a3ccc7;
+	display: inline;
+	margin-right: 2.3em;
+}
+
+#query {
+	border-radius: .25em;
+	display: inline;
+	margin-top: 6%;
+}
+
+#fetchRT {
+	border-radius: 1.25em;
+	display: inline;
+	margin-top: 6%;
+}
+
+#pic {
+	position: absolute;
+	height: 90%;
+	width: auto;
+	margin-left: 25%;
+	margin-right: 20%;
+	padding: 0%;
+	margin-top: 8%;
+}
+
+#pic img {
+	height: 80%;
+	width: auto;
+}
+
+#leftRT {
+	float: left;
+	width: 30%;
+	font-family: 'Redressed', cursive;
+	margin-top: 10em;
+	margin-left: 3em;
+}
+
+#centerTumblr {
+	float: left;
+	width: 50%;
+	margin-top: 4.5em;
+}
+
+#rightRT {
+	float: left;
+	width: 15%;
+	padding: 0%;
+	margin-top: 10em;
+}
+
+#movieOutput img{
+	height: auto;
+	width: 100%;
+}
+
+#nameOfActor, #centerMessages, #resultMessage {	
+	text-transform: capitalize;
+	font-size: 72px;
+	font-weight: normal;
+	text-shadow: 0px 10px 0px black;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: #e6f5f3;
+}
+
+#noResults {
+	float: left;
+	width: 100%;
+}
+
+.selectionButton {
+	font-family: "American Typewriter", "Special Elite", sans-serif;
+	padding: .25em;
+	border: .2em white dotted;
+	width: 7em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selectionButton:hover {
+	background-color: #2ab39c;
+}
+
+#actorsList {
+	font-size: 36px;
+	line-height: 1em;
+	margin-top: .75em;
+}
+
+#actorsList ul{
+	margin-top: .5em;
+}
+
+#actorsCharactersList {
+	font-family: "American Typewriter", "Special Elite", sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-top: 1.5em;
+}
+
+ul li {
+	list-style: none;
+}
+
+.selected {
+	color: #34D0b6;
+}
+
+#gallery{
+	width: 100%;
+	height: 80%;
+	overflow: auto;
+}
+
+#gallery img {
+	margin: .25em;
+	width: 100px;
+	height: 100px;
+}
+
+#popOutPic {
+	display: none; /* Initially Hidden */
+	background-color: rgba(0, 0, 0, .75);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#container {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	z-index: 2;
+	width: 600px;
+	height: 600px;
+	margin: 6em 0 6em -300px;
+}
+
+#container img {
+	position: center; 
+	max-width: 500px;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#floater {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em;
+}
+
+#prev, #next {
+	color: transparent;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 5em;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	padding: 0 10%;
+	line-height: 7em;
+}
+
+#prev {
+	text-align: left;
+	left: -20%;
+}
+
+#next {
+	text-align: right;
+	right: -20%;
+}
+
+#prev:hover, #next:hover {
+	color: #34D0b6;
+}
+
+#prevMovie, #nextMovie {
+	margin-top: .75em;
+}
+
+#notRightResult {
+	font-family: "American Typewriter", "Special Elite", sans-serif;
+	padding: .27em;
+	margin-left: auto;
+	margin-right: auto;
+}
