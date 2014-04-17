@@ -1,0 +1,1637 @@
+/* Proty specific styles.  Only loaded at small and medium window sizes. */
+/* LAYOUT ---------------------------------------------------------------------------------------------------------- */
+/* line 14, ../../sass/proty/proty-medium.scss */
+.thing.content.empty,
+.thing.menu.empty,
+.thing.header.empty,
+.thing.footer.empty,
+.column-thing.empty {
+  background-image: url("../../media/images/bground_empty.png") !important;
+}
+/* line 16, ../../sass/proty/proty-medium.scss */
+.thing.content.empty:hover,
+.thing.menu.empty:hover,
+.thing.header.empty:hover,
+.thing.footer.empty:hover,
+.column-thing.empty:hover {
+  background-color: #F4F9B3;
+}
+
+/* line 24, ../../sass/proty/proty-medium.scss */
+#region-branding .region-inner,
+#region-menu .region-inner,
+#region-footer .region-inner,
+.region.region-content .region-inner {
+  padding: 10px 9px;
+}
+
+/* line 28, ../../sass/proty/proty-medium.scss */
+#region-branding .region-inner {
+  min-height: 125px;
+}
+
+/* line 32, ../../sass/proty/proty-medium.scss */
+#section-footer .region-inner {
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+/* GRID ------------------------------------------------------------------------------------------------------------ */
+/* line 44, ../../sass/proty/proty-medium.scss */
+body {
+  min-width: 720px;
+}
+
+/* line 50, ../../sass/proty/proty-medium.scss */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10,
+.grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19,
+.grid-20 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 58, ../../sass/proty/proty-medium.scss */
+.container-20 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+/* line 62, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-1 {
+  width: 16px;
+}
+/* line 63, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-1.region {
+  width: 14px;
+}
+/* line 65, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-2 {
+  width: 52px;
+}
+/* line 66, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-2.region {
+  width: 50px;
+}
+/* line 68, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-3 {
+  width: 88px;
+}
+/* line 69, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-3.region {
+  width: 86px;
+}
+/* line 71, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-4 {
+  width: 124px;
+}
+/* line 72, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-4.region {
+  width: 122px;
+}
+/* line 74, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-5 {
+  width: 160px;
+}
+/* line 75, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-5.region {
+  width: 158px;
+}
+/* line 77, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-6 {
+  width: 196px;
+}
+/* line 78, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-6.region {
+  width: 194px;
+}
+/* line 80, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-7 {
+  width: 232px;
+}
+/* line 81, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-7.region {
+  width: 230px;
+}
+/* line 83, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-8 {
+  width: 268px;
+}
+/* line 84, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-8.region {
+  width: 266px;
+}
+/* line 86, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-9 {
+  width: 304px;
+}
+/* line 87, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-9.region {
+  width: 302px;
+}
+/* line 89, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-10 {
+  width: 340px;
+}
+/* line 90, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-10.region {
+  width: 338px;
+}
+/* line 92, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-11 {
+  width: 376px;
+}
+/* line 93, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-11.region {
+  width: 374px;
+}
+/* line 95, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-12 {
+  width: 412px;
+}
+/* line 96, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-12.region {
+  width: 410px;
+}
+/* line 98, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-13 {
+  width: 448px;
+}
+/* line 99, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-13.region {
+  width: 446px;
+}
+/* line 101, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-14 {
+  width: 484px;
+}
+/* line 102, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-14.region {
+  width: 482px;
+}
+/* line 104, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-15 {
+  width: 520px;
+}
+/* line 105, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-15.region {
+  width: 518px;
+}
+/* line 107, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-16 {
+  width: 556px;
+}
+/* line 108, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-16.region {
+  width: 554px;
+}
+/* line 110, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-17 {
+  width: 592px;
+}
+/* line 111, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-17.region {
+  width: 590px;
+}
+/* line 113, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-18 {
+  width: 628px;
+}
+/* line 114, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-18.region {
+  width: 626px;
+}
+/* line 116, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-19 {
+  width: 664px;
+}
+/* line 117, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-19.region {
+  width: 662px;
+}
+/* line 119, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-20 {
+  width: 700px;
+}
+/* line 120, ../../sass/proty/proty-medium.scss */
+.container-20 .grid-20.region {
+  width: 698px;
+}
+/* line 122, ../../sass/proty/proty-medium.scss */
+.grid-debug .container-20 {
+  ackground-image: url(../../media/images/grid-tablet-20.png);
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+/* line 132, ../../sass/proty/proty-medium.scss */
+.grid-debug .region,
+.grid-debug button.column-thing-add,
+.grid-debug .column-editor,
+.grid-debug .mainEditButtonContainer {
+  opacity: 0.5;
+}
+
+/* line 136, ../../sass/proty/proty-medium.scss */
+.column-thing-container > .region:last-child {
+  margin-right: 0 !important;
+  /* leaves a little extra space for browser rounding errors when zooming */
+}
+
+/* line 142, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-1 {
+  width: 5%;
+}
+/* line 143, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-2 {
+  width: 10%;
+}
+/* line 144, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-3 {
+  width: 15%;
+}
+/* line 145, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-4 {
+  width: 20%;
+}
+/* line 146, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-5 {
+  width: 25%;
+}
+/* line 147, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-6 {
+  width: 30%;
+}
+/* line 148, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-7 {
+  width: 35%;
+}
+/* line 149, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-8 {
+  width: 40%;
+}
+/* line 150, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-9 {
+  width: 45%;
+}
+/* line 151, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-10 {
+  width: 50%;
+}
+/* line 152, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-11 {
+  width: 55.0%;
+}
+/* line 153, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-12 {
+  width: 60%;
+}
+/* line 154, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-13 {
+  width: 65%;
+}
+/* line 155, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-14 {
+  width: 70%;
+}
+/* line 156, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-15 {
+  width: 75%;
+}
+/* line 157, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-16 {
+  width: 80%;
+}
+/* line 158, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-17 {
+  width: 85%;
+}
+/* line 159, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-18 {
+  width: 90%;
+}
+/* line 160, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-19 {
+  width: 95%;
+}
+/* line 161, ../../sass/proty/proty-medium.scss */
+.grid-20 .thing.grid-20 {
+  width: 100%;
+}
+
+/* line 167, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-1 {
+  width: 5.26316%;
+}
+/* line 168, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-2 {
+  width: 10.52632%;
+}
+/* line 169, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-3 {
+  width: 15.78947%;
+}
+/* line 170, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-4 {
+  width: 21.05263%;
+}
+/* line 171, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-5 {
+  width: 26.31579%;
+}
+/* line 172, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-6 {
+  width: 31.57895%;
+}
+/* line 173, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-7 {
+  width: 36.84211%;
+}
+/* line 174, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-8 {
+  width: 42.10526%;
+}
+/* line 175, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-9 {
+  width: 47.36842%;
+}
+/* line 176, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-10 {
+  width: 52.63158%;
+}
+/* line 177, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-11 {
+  width: 57.89474%;
+}
+/* line 178, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-12 {
+  width: 63.15789%;
+}
+/* line 179, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-13 {
+  width: 68.42105%;
+}
+/* line 180, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-14 {
+  width: 73.68421%;
+}
+/* line 181, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-15 {
+  width: 78.94737%;
+}
+/* line 182, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-16 {
+  width: 84.21053%;
+}
+/* line 183, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-17 {
+  width: 89.47368%;
+}
+/* line 184, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-18 {
+  width: 94.73684%;
+}
+/* line 185, ../../sass/proty/proty-medium.scss */
+.grid-19 .thing.grid-19 {
+  width: 100%;
+}
+
+/* line 191, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-1 {
+  width: 5.55556%;
+}
+/* line 192, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-2 {
+  width: 11.11111%;
+}
+/* line 193, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-3 {
+  width: 16.66667%;
+}
+/* line 194, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-4 {
+  width: 22.22222%;
+}
+/* line 195, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-5 {
+  width: 27.77778%;
+}
+/* line 196, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-6 {
+  width: 33.33333%;
+}
+/* line 197, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-7 {
+  width: 38.88889%;
+}
+/* line 198, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-8 {
+  width: 44.44444%;
+}
+/* line 199, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-9 {
+  width: 50%;
+}
+/* line 200, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-10 {
+  width: 55.55556%;
+}
+/* line 201, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-11 {
+  width: 61.11111%;
+}
+/* line 202, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-12 {
+  width: 66.66667%;
+}
+/* line 203, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-13 {
+  width: 72.22222%;
+}
+/* line 204, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-14 {
+  width: 77.77778%;
+}
+/* line 205, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-15 {
+  width: 83.33333%;
+}
+/* line 206, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-16 {
+  width: 88.88889%;
+}
+/* line 207, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-17 {
+  width: 94.44444%;
+}
+/* line 208, ../../sass/proty/proty-medium.scss */
+.grid-18 .thing.grid-18 {
+  width: 100%;
+}
+
+/* line 214, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-1 {
+  width: 5.88235%;
+}
+/* line 215, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-2 {
+  width: 11.76471%;
+}
+/* line 216, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-3 {
+  width: 17.64706%;
+}
+/* line 217, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-4 {
+  width: 23.52941%;
+}
+/* line 218, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-5 {
+  width: 29.41176%;
+}
+/* line 219, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-6 {
+  width: 35.29412%;
+}
+/* line 220, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-7 {
+  width: 41.17647%;
+}
+/* line 221, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-8 {
+  width: 47.05882%;
+}
+/* line 222, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-9 {
+  width: 52.94118%;
+}
+/* line 223, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-10 {
+  width: 58.82353%;
+}
+/* line 224, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-11 {
+  width: 64.70588%;
+}
+/* line 225, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-12 {
+  width: 70.58824%;
+}
+/* line 226, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-13 {
+  width: 76.47059%;
+}
+/* line 227, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-14 {
+  width: 82.35294%;
+}
+/* line 228, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-15 {
+  width: 88.23529%;
+}
+/* line 229, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-16 {
+  width: 94.11765%;
+}
+/* line 230, ../../sass/proty/proty-medium.scss */
+.grid-17 .thing.grid-17 {
+  width: 100%;
+}
+
+/* line 236, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-1 {
+  width: 6.25%;
+}
+/* line 237, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-2 {
+  width: 12.5%;
+}
+/* line 238, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-3 {
+  width: 18.75%;
+}
+/* line 239, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-4 {
+  width: 25%;
+}
+/* line 240, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-5 {
+  width: 31.25%;
+}
+/* line 241, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-6 {
+  width: 37.5%;
+}
+/* line 242, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-7 {
+  width: 43.75%;
+}
+/* line 243, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-8 {
+  width: 50%;
+}
+/* line 244, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-9 {
+  width: 56.25%;
+}
+/* line 245, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-10 {
+  width: 62.5%;
+}
+/* line 246, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-11 {
+  width: 68.75%;
+}
+/* line 247, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-12 {
+  width: 75%;
+}
+/* line 248, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-13 {
+  width: 81.25%;
+}
+/* line 249, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-14 {
+  width: 87.5%;
+}
+/* line 250, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-15 {
+  width: 93.75%;
+}
+/* line 251, ../../sass/proty/proty-medium.scss */
+.grid-16 .thing.grid-16 {
+  width: 100%;
+}
+
+/* line 257, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-1 {
+  width: 6.66667%;
+}
+/* line 258, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-2 {
+  width: 13.33333%;
+}
+/* line 259, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-3 {
+  width: 20%;
+}
+/* line 260, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-4 {
+  width: 26.66667%;
+}
+/* line 261, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-5 {
+  width: 33.33333%;
+}
+/* line 262, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-6 {
+  width: 40%;
+}
+/* line 263, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-7 {
+  width: 46.66667%;
+}
+/* line 264, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-8 {
+  width: 53.33333%;
+}
+/* line 265, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-9 {
+  width: 60%;
+}
+/* line 266, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-10 {
+  width: 66.66667%;
+}
+/* line 267, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-11 {
+  width: 73.33333%;
+}
+/* line 268, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-12 {
+  width: 80%;
+}
+/* line 269, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-13 {
+  width: 86.66667%;
+}
+/* line 270, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-14 {
+  width: 93.33333%;
+}
+/* line 271, ../../sass/proty/proty-medium.scss */
+.grid-15 .thing.grid-15 {
+  width: 100%;
+}
+
+/* line 277, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-1 {
+  width: 7.14286%;
+}
+/* line 278, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-2 {
+  width: 14.28571%;
+}
+/* line 279, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-3 {
+  width: 21.42857%;
+}
+/* line 280, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-4 {
+  width: 28.57143%;
+}
+/* line 281, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-5 {
+  width: 35.71429%;
+}
+/* line 282, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-6 {
+  width: 42.85714%;
+}
+/* line 283, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-7 {
+  width: 50%;
+}
+/* line 284, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-8 {
+  width: 57.14286%;
+}
+/* line 285, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-9 {
+  width: 64.28571%;
+}
+/* line 286, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-10 {
+  width: 71.42857%;
+}
+/* line 287, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-11 {
+  width: 78.57143%;
+}
+/* line 288, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-12 {
+  width: 85.71429%;
+}
+/* line 289, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-13 {
+  width: 92.85714%;
+}
+/* line 290, ../../sass/proty/proty-medium.scss */
+.grid-14 .thing.grid-14 {
+  width: 100%;
+}
+
+/* line 296, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-1 {
+  width: 7.69231%;
+}
+/* line 297, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-2 {
+  width: 15.38462%;
+}
+/* line 298, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-3 {
+  width: 23.07692%;
+}
+/* line 299, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-4 {
+  width: 30.76923%;
+}
+/* line 300, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-5 {
+  width: 38.46154%;
+}
+/* line 301, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-6 {
+  width: 46.15385%;
+}
+/* line 302, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-7 {
+  width: 53.84615%;
+}
+/* line 303, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-8 {
+  width: 61.53846%;
+}
+/* line 304, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-9 {
+  width: 69.23077%;
+}
+/* line 305, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-10 {
+  width: 76.92308%;
+}
+/* line 306, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-11 {
+  width: 84.61538%;
+}
+/* line 307, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-12 {
+  width: 92.30769%;
+}
+/* line 308, ../../sass/proty/proty-medium.scss */
+.grid-13 .thing.grid-13 {
+  width: 100%;
+}
+
+/* line 314, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-1 {
+  width: 8.33333%;
+}
+/* line 315, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-2 {
+  width: 16.66667%;
+}
+/* line 316, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-3 {
+  width: 25%;
+}
+/* line 317, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-4 {
+  width: 33.33333%;
+}
+/* line 318, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-5 {
+  width: 41.66667%;
+}
+/* line 319, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-6 {
+  width: 50%;
+}
+/* line 320, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-7 {
+  width: 58.33333%;
+}
+/* line 321, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-8 {
+  width: 66.66667%;
+}
+/* line 322, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-9 {
+  width: 75%;
+}
+/* line 323, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-10 {
+  width: 83.33333%;
+}
+/* line 324, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-11 {
+  width: 91.66667%;
+}
+/* line 325, ../../sass/proty/proty-medium.scss */
+.grid-12 .thing.grid-12 {
+  width: 100%;
+}
+
+/* line 331, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-1 {
+  width: 9.09091%;
+}
+/* line 332, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-2 {
+  width: 18.18182%;
+}
+/* line 333, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-3 {
+  width: 27.27273%;
+}
+/* line 334, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-4 {
+  width: 36.36364%;
+}
+/* line 335, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-5 {
+  width: 45.45455%;
+}
+/* line 336, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-6 {
+  width: 54.54545%;
+}
+/* line 337, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-7 {
+  width: 63.63636%;
+}
+/* line 338, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-8 {
+  width: 72.72727%;
+}
+/* line 339, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-9 {
+  width: 81.81818%;
+}
+/* line 340, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-10 {
+  width: 90.90909%;
+}
+/* line 341, ../../sass/proty/proty-medium.scss */
+.grid-11 .thing.grid-11 {
+  width: 100%;
+}
+
+/* line 347, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-1 {
+  width: 10%;
+}
+/* line 348, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-2 {
+  width: 20%;
+}
+/* line 349, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-3 {
+  width: 30%;
+}
+/* line 350, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-4 {
+  width: 40%;
+}
+/* line 351, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-5 {
+  width: 50%;
+}
+/* line 352, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-6 {
+  width: 60%;
+}
+/* line 353, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-7 {
+  width: 70%;
+}
+/* line 354, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-8 {
+  width: 80%;
+}
+/* line 355, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-9 {
+  width: 90%;
+}
+/* line 356, ../../sass/proty/proty-medium.scss */
+.grid-10 .thing.grid-10 {
+  width: 100%;
+}
+
+/* line 362, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-1 {
+  width: 11.11111%;
+}
+/* line 363, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-2 {
+  width: 22.22222%;
+}
+/* line 364, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-3 {
+  width: 33.33333%;
+}
+/* line 365, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-4 {
+  width: 44.44444%;
+}
+/* line 366, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-5 {
+  width: 55.55556%;
+}
+/* line 367, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-6 {
+  width: 66.66667%;
+}
+/* line 368, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-7 {
+  width: 77.77778%;
+}
+/* line 369, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-8 {
+  width: 88.88889%;
+}
+/* line 370, ../../sass/proty/proty-medium.scss */
+.grid-9 .thing.grid-9 {
+  width: 100%;
+}
+
+/* line 376, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-1 {
+  width: 12.5%;
+}
+/* line 377, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-2 {
+  width: 25%;
+}
+/* line 378, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-3 {
+  width: 37.5%;
+}
+/* line 379, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-4 {
+  width: 50%;
+}
+/* line 380, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-5 {
+  width: 62.5%;
+}
+/* line 381, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-6 {
+  width: 75%;
+}
+/* line 382, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-7 {
+  width: 87.5%;
+}
+/* line 383, ../../sass/proty/proty-medium.scss */
+.grid-8 .thing.grid-8 {
+  width: 100%;
+}
+
+/* line 389, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-1 {
+  width: 14.28571%;
+}
+/* line 390, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-2 {
+  width: 28.57143%;
+}
+/* line 391, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-3 {
+  width: 42.85714%;
+}
+/* line 392, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-4 {
+  width: 57.14286%;
+}
+/* line 393, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-5 {
+  width: 71.42857%;
+}
+/* line 394, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-6 {
+  width: 85.71429%;
+}
+/* line 395, ../../sass/proty/proty-medium.scss */
+.grid-7 .thing.grid-7 {
+  width: 100%;
+}
+
+/* line 401, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-1 {
+  width: 16.66667%;
+}
+/* line 402, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-2 {
+  width: 33.33333%;
+}
+/* line 403, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-3 {
+  width: 50%;
+}
+/* line 404, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-4 {
+  width: 66.66667%;
+}
+/* line 405, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-5 {
+  width: 83.33333%;
+}
+/* line 406, ../../sass/proty/proty-medium.scss */
+.grid-6 .thing.grid-6 {
+  width: 100%;
+}
+
+/* line 412, ../../sass/proty/proty-medium.scss */
+.grid-5 .thing.grid-1 {
+  width: 20%;
+}
+/* line 413, ../../sass/proty/proty-medium.scss */
+.grid-5 .thing.grid-2 {
+  width: 40%;
+}
+/* line 414, ../../sass/proty/proty-medium.scss */
+.grid-5 .thing.grid-3 {
+  width: 60%;
+}
+/* line 415, ../../sass/proty/proty-medium.scss */
+.grid-5 .thing.grid-4 {
+  width: 80%;
+}
+/* line 416, ../../sass/proty/proty-medium.scss */
+.grid-5 .thing.grid-5 {
+  width: 100%;
+}
+
+/* line 422, ../../sass/proty/proty-medium.scss */
+.grid-4 .thing.grid-1 {
+  width: 25%;
+}
+/* line 423, ../../sass/proty/proty-medium.scss */
+.grid-4 .thing.grid-2 {
+  width: 50%;
+}
+/* line 424, ../../sass/proty/proty-medium.scss */
+.grid-4 .thing.grid-3 {
+  width: 75%;
+}
+/* line 425, ../../sass/proty/proty-medium.scss */
+.grid-4 .thing.grid-4 {
+  width: 100%;
+}
+
+/* line 431, ../../sass/proty/proty-medium.scss */
+.grid-3 .thing.grid-1 {
+  width: 33.33333%;
+}
+/* line 432, ../../sass/proty/proty-medium.scss */
+.grid-3 .thing.grid-2 {
+  width: 66.66667%;
+}
+/* line 433, ../../sass/proty/proty-medium.scss */
+.grid-3 .thing.grid-3 {
+  width: 100%;
+}
+
+/* line 439, ../../sass/proty/proty-medium.scss */
+.grid-2 .thing.grid-1 {
+  width: 50%;
+}
+/* line 440, ../../sass/proty/proty-medium.scss */
+.grid-2 .thing.grid-2 {
+  width: 100%;
+}
+
+/* line 447, ../../sass/proty/proty-medium.scss */
+.grid-1 .thing.grid-1 {
+  width: 100%;
+}
+
+/* EDITING FUNCTIONS ----------------------------------------------------------------------------------------------- */
+/* sections */
+/* line 460, ../../sass/proty/proty-medium.scss */
+#zone-branding,
+#zone-menu,
+#zone-footer,
+#zone-content {
+  padding: 15px 10px;
+}
+/* line 462, ../../sass/proty/proty-medium.scss */
+.disabled #zone-branding, .disabled
+#zone-menu, .disabled
+#zone-footer, .disabled
+#zone-content {
+  padding: 0;
+}
+
+/* line 469, ../../sass/proty/proty-medium.scss */
+#zone-branding:hover,
+#zone-menu:hover,
+#zone-footer:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 471, ../../sass/proty/proty-medium.scss */
+.disabled #zone-branding:hover, .disabled
+#zone-menu:hover, .disabled
+#zone-footer:hover {
+  background-color: transparent;
+}
+
+/* line 476, ../../sass/proty/proty-medium.scss */
+h2.area-label {
+  color: #000 !important;
+  display: block;
+  font-size: 15px !important;
+  line-height: 15px !important;
+  margin: 30px 0 -30px 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+/* line 484, ../../sass/proty/proty-medium.scss */
+h2.area-label.content {
+  padding-bottom: 20px !important;
+}
+/* line 487, ../../sass/proty/proty-medium.scss */
+h2.area-label.group {
+  margin-bottom: -15px !important;
+}
+/* line 490, ../../sass/proty/proty-medium.scss */
+.disabled h2.area-label {
+  display: none !important;
+}
+
+/* things and column-things */
+/* line 499, ../../sass/proty/proty-medium.scss */
+.thing {
+  display: block;
+}
+/* line 501, ../../sass/proty/proty-medium.scss */
+.thing.empty {
+  min-height: 50px;
+}
+/* line 504, ../../sass/proty/proty-medium.scss */
+.disabled .thing {
+  min-height: 0 !important;
+}
+/* line 507, ../../sass/proty/proty-medium.scss */
+.thing .file-container {
+  border: 1px dotted transparent;
+  border: 1px dotted rgba(255, 255, 255, 0);
+}
+/* line 510, ../../sass/proty/proty-medium.scss */
+.disabled .thing .file-container {
+  border: 1px dotted transparent;
+  border: 1px dotted rgba(255, 255, 255, 0);
+}
+/* line 514, ../../sass/proty/proty-medium.scss */
+.thing .file-container:hover {
+  cursor: move;
+  outline: 1px dotted #111;
+}
+/* line 517, ../../sass/proty/proty-medium.scss */
+.disabled .thing .file-container:hover {
+  background-color: transparent !important;
+  cursor: auto;
+  outline: 0 !important;
+}
+/* line 524, ../../sass/proty/proty-medium.scss */
+.thing.dragging {
+  background-color: #F4F9B3;
+}
+/* line 528, ../../sass/proty/proty-medium.scss */
+.thing.dragging .file-container:hover {
+  background-color: none;
+  outline: 1px dotted red;
+}
+/* line 533, ../../sass/proty/proty-medium.scss */
+.thing.snappable {
+  background-color: #B2CAF7;
+  outline: 1px dotted #111;
+}
+
+/* line 540, ../../sass/proty/proty-medium.scss */
+.disabled .thing .note {
+  background-color: #15a5ae;
+  /* Old browsers */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #15a5ae), color-stop(40%, #0aa5ad), color-stop(100%, #1490a0));
+  background-image: -webkit-linear-gradient(#15a5ae 0%, #0aa5ad 40%, #1490a0 100%);
+  background-image: -moz-linear-gradient(#15a5ae 0%, #0aa5ad 40%, #1490a0 100%);
+  background-image: -o-linear-gradient(#15a5ae 0%, #0aa5ad 40%, #1490a0 100%);
+  background-image: linear-gradient(#15a5ae 0%, #0aa5ad 40%, #1490a0 100%);
+  border: 1px solid #1490a0 !important;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: block;
+  height: 25px;
+  font-family: Arial, serif;
+  font-style: normal;
+  left: -5px;
+  line-height: 25px;
+  margin: 0;
+  min-width: 25px;
+  opacity: 0.8;
+  padding: 0;
+  position: absolute;
+  top: -10px;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  z-index: 10;
+}
+/* line 561, ../../sass/proty/proty-medium.scss */
+.disabled .thing .note.open {
+  opacity: 1;
+}
+/* line 564, ../../sass/proty/proty-medium.scss */
+.disabled .thing .note span.number {
+  display: block;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+  top: -2px;
+}
+/* line 573, ../../sass/proty/proty-medium.scss */
+.disabled .thing .note:hover, .disabled .thing .note:focus {
+  background: #0f7876;
+}
+/* line 577, ../../sass/proty/proty-medium.scss */
+.disabled.notes-disabled .thing .note {
+  display: none;
+}
+
+/* line 582, ../../sass/proty/proty-medium.scss */
+.disabled .thing note {
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: none;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  left: 0;
+  line-height: 125%;
+  padding: 20px 5% 20px 5%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  width: 90%;
+  z-index: 9;
+}
+/* line 596, ../../sass/proty/proty-medium.scss */
+.disabled .thing note p {
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 601, ../../sass/proty/proty-medium.scss */
+.notes-disabled .thing note {
+  display: none !important;
+}
+
+/* line 607, ../../sass/proty/proty-medium.scss */
+.thing .editor button,
+.column-editor button,
+button.change {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(25%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333;
+  cursor: pointer;
+  padding: 3px 8px 4px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+
+/* line 623, ../../sass/proty/proty-medium.scss */
+.thing button.add,
+.column-thing .column-thing-add {
+  background-color: #e5e5e5;
+  /* Old browsers */
+  background-repeat: none;
+  background-position: 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e5e5e5), color-stop(25%, #e5e5e5), color-stop(100%, #bababa));
+  background-image: -webkit-linear-gradient(#e5e5e5 0%, #e5e5e5 25%, #bababa 100%);
+  background-image: -moz-linear-gradient(#e5e5e5 0%, #e5e5e5 25%, #bababa 100%);
+  background-image: -o-linear-gradient(#e5e5e5 0%, #e5e5e5 25%, #bababa 100%);
+  background-image: linear-gradient(#e5e5e5 0%, #e5e5e5 25%, #bababa 100%);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #111;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+/* line 635, ../../sass/proty/proty-medium.scss */
+.thing button.add:hover, .thing button.add:focus,
+.column-thing .column-thing-add:hover,
+.column-thing .column-thing-add:focus {
+  background-position: 0 15px;
+  color: #111;
+}
+/* line 640, ../../sass/proty/proty-medium.scss */
+.thing button.add:active, .thing button.add:active,
+.column-thing .column-thing-add:active,
+.column-thing .column-thing-add:active {
+  border-color: #333;
+}
+
+/* line 648, ../../sass/proty/proty-medium.scss */
+.thing .add,
+.thing .editor button,
+.column-thing .column-editor button,
+.column-thing .column-thing-add {
+  font-size: 10px;
+  font-weight: normal !important;
+  line-height: 16px;
+  padding: 3px 8px 3px 24px;
+  position: relative;
+  margin: 0 2px;
+  text-transform: none !important;
+}
+
+/* line 658, ../../sass/proty/proty-medium.scss */
+.thing .editor button {
+  margin: 2px;
+}
+
+/* line 663, ../../sass/proty/proty-medium.scss */
+.thing .editor button,
+.column-thing .column-editor button {
+  padding: 3px 3px 0 3px;
+}
+
+/* line 667, ../../sass/proty/proty-medium.scss */
+.thing .add {
+  display: block;
+  left: 10px;
+  position: absolute;
+  top: 25%;
+}
+
+/* line 674, ../../sass/proty/proty-medium.scss */
+.thing .editor {
+  background: #4f4b4c;
+  border-top: 1px solid #dcdbdb;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: none;
+  position: absolute;
+  padding: 5px;
+  right: -20px;
+  top: -40px;
+  white-space: nowrap;
+  z-index: 200;
+}
+
+/* line 688, ../../sass/proty/proty-medium.scss */
+.column-thing .column-thing-add {
+  display: block;
+}
+
+/* line 693, ../../sass/proty/proty-medium.scss */
+.column-thing {
+  padding: 0px 0 10px 0;
+  position: relative;
+}
+/* line 696, ../../sass/proty/proty-medium.scss */
+.disabled .column-thing {
+  padding: 0;
+}
+
+/* line 701, ../../sass/proty/proty-medium.scss */
+.column-thing.empty {
+  margin-top: 16px;
+  padding: 12px;
+}
+/* line 704, ../../sass/proty/proty-medium.scss */
+.disabled .column-thing.empty {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 710, ../../sass/proty/proty-medium.scss */
+.column-thing .region.empty {
+  min-height: 180px;
+}
+/* line 712, ../../sass/proty/proty-medium.scss */
+.disabled .column-thing .region.empty {
+  min-height: 0;
+}
+
+/* line 718, ../../sass/proty/proty-medium.scss */
+.column-thing .column-editor {
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: -5px;
+  display: block;
+  left: 0;
+  margin-left: -12px;
+  margin-top: 0;
+  min-height: 150px;
+  opacity: 0;
+  padding: 10px 0 10px;
+  position: absolute;
+  right: -34px;
+  top: -5px;
+  z-index: 12;
+}
+/* line 732, ../../sass/proty/proty-medium.scss */
+.column-thing .column-editor .column-editor-inner {
+  left: auto;
+  position: absolute;
+  right: 0;
+}
+/* line 737, ../../sass/proty/proty-medium.scss */
+.column-thing .column-editor button {
+  display: block;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 30px;
+}
+/* line 745, ../../sass/proty/proty-medium.scss */
+.column-thing:hover .column-editor {
+  opacity: 1;
+}
+
+/* line 750, ../../sass/proty/proty-medium.scss */
+.thing .editor:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  margin-left: -12px;
+  bottom: -12px;
+  border-width: 12px 12px 0;
+  border-style: solid;
+  border-color: #4f4b4c transparent;
+}
+
+/* line 763, ../../sass/proty/proty-medium.scss */
+.column-thing-1-columns .column-editor button.columnwidths {
+  display: none;
+}
+
+/* line 770, ../../sass/proty/proty-medium.scss */
+.column-thing .thing:hover .editor,
+.column-thing .thing .editor:hover,
+.thing:hover .editor,
+.editor:hover {
+  display: block;
+}
+
+/* line 774, ../../sass/proty/proty-medium.scss */
+.thing.dragging:hover .editor {
+  display: none;
+}
+
+/* line 778, ../../sass/proty/proty-medium.scss */
+body:not(.disabled) .thing:hover {
+  z-index: 999 !important;
+}
+
+/* line 785, ../../sass/proty/proty-medium.scss */
+.disabled .thing .add,
+.disabled .thing .editor,
+.disabled .column-thing .column-editor,
+.disabled .column-thing .column-thing-add {
+  display: none !important;
+}
+
+/* line 792, ../../sass/proty/proty-medium.scss */
+.thing .add span,
+.thing .editor button span,
+.column-thing .column-editor button span,
+.column-thing .column-thing-add span {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  height: 16px;
+  width: 16px;
+  font-family: Entypo;
+  color: #323232;
+  line-height: 6px;
+  font-size: 30px;
+}
+
+/* line 806, ../../sass/proty/proty-medium.scss */
+.thing .add span,
+.column-thing button.column-thing-add span {
+  color: #847a00;
+}
+
+/* line 811, ../../sass/proty/proty-medium.scss */
+.thing .editor button.removeButton span,
+.column-thing .column-editor button.removeButton span {
+  color: #cd4621;
+}
+
+/* line 816, ../../sass/proty/proty-medium.scss */
+.thing .editor button span,
+.column-thing .column-editor button span {
+  display: inline;
+  position: relative;
+  left: 0;
+  top: 1px;
+}
+
+/* line 823, ../../sass/proty/proty-medium.scss */
+.thing .editor h6 {
+  color: #fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-size: 10px !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+}
+
+/* line 834, ../../sass/proty/proty-medium.scss */
+button.column-thing-add {
+  display: block;
+  clear: both;
+  float: left;
+}
+
+/* line 841, ../../sass/proty/proty-medium.scss */
+.thing.first .editor button.moveUp,
+.column-thing.first .column-editor button.moveUp {
+  display: none;
+}
+
+/* line 846, ../../sass/proty/proty-medium.scss */
+.thing.last .editor button.moveDown,
+.column-thing.last .column-editor button.moveDown {
+  display: none;
+}
+
+/* line 850, ../../sass/proty/proty-medium.scss */
+.highlight {
+  background-color: #F4F9B3;
+}
+
+/* hide from */
+/* line 860, ../../sass/proty/proty-medium.scss */
+.hide-smartphone.thing {
+  opacity: 1.0 !important;
+}
+/* line 863, ../../sass/proty/proty-medium.scss */
+.disabled .hide-smartphone {
+  display: block !important;
+}
+
+/* line 869, ../../sass/proty/proty-medium.scss */
+.hide-desktop.thing {
+  opacity: 1.0 !important;
+}
+/* line 872, ../../sass/proty/proty-medium.scss */
+.disabled .hide-desktop {
+  display: block !important;
+}
+
+/* line 879, ../../sass/proty/proty-medium.scss */
+.hide-tablet.thing {
+  opacity: 0.2 !important;
+}
+/* line 882, ../../sass/proty/proty-medium.scss */
+.disabled .hide-tablet {
+  display: none !important;
+}
+
+/* ANTI IPHONE TOP MENUS ------------------------------------------------------------------------------------------- */
+/*
+#mobile-hat {
+    display: none !important;   
+}
+
+#region-menu .menu-name-main-menu ul.menu {
+    display: block;
+}*/

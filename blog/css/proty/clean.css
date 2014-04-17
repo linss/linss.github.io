@@ -1,0 +1,453 @@
+/* Custom Styling -- this file is loaded when the 'custom' theme is selected.  The HTML tag classes "small", "medium", 
+/* and "large" can be used to target specific responsive sizes in this file or in primitive file CSS 
+/* (e.g., the selector ".small p" would target only paragraphs at the 'mobile' size).  To reference custom asset files 
+/* from this file, use the path '../assets/' (e.g., background: url(../assets/myimage.png);  */
+/* GENERAL --------------------------------------------------------------------------------------------------------- */
+/* Universal Transitions -- you may need to override these on specific items. */
+/* line 10, ../../sass/proty/clean.scss */
+* {
+  -moz-transition: background-color 0.2s linear, border-color 0.2s linear, -moz-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -moz-transform 0.2s linear;
+  -ms-transition: background-color 0.2s linear, border-color 0.2s linear, -ms-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -ms-transform 0.2s linear;
+  -o-transition: background-color 0.2s linear, border-color 0.2s linear, -o-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -o-transform 0.2s linear;
+  -webkit-transition: background-color 0.2s linear, border-color 0.2s linear, -webkit-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -webkit-transform 0.2s linear;
+  transition: background-color 0.2s linear, border-color 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear;
+}
+
+/* line 18, ../../sass/proty/clean.scss */
+html, body {
+  background: #c8c8c8;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* line 26, ../../sass/proty/clean.scss */
+img {
+  max-width: 100%;
+  /* Allows for responsive images. May not play nice with img borders */
+}
+
+/* Links ------------------------------ */
+/* line 37, ../../sass/proty/clean.scss */
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  color: #0000CC;
+  text-decoration: none;
+}
+
+/* line 44, ../../sass/proty/clean.scss */
+a:hover,
+a:focus {
+  border-bottom: 1px solid black;
+  color: #000000;
+}
+
+/* Element Focus ----------------------- */
+/* line 51, ../../sass/proty/clean.scss */
+:focus {
+  outline: thin dotted;
+}
+
+/* LAYOUT ---------------------------------------------------------------------------------------------------------- */
+/* line 64, ../../sass/proty/clean.scss */
+#region-branding,
+#region-menu,
+#region-footer,
+.region.region-content {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* line 72, ../../sass/proty/clean.scss */
+#region-branding .region-inner,
+#region-menu .region-inner,
+#region-footer .region-inner,
+.region.region-content .region-inner {
+  background-color: #fff;
+}
+
+/* HTML ELEMENTS ------------------------------------------------------------------------------------------------- */
+/* Headers -------------------------- */
+/* line 88, ../../sass/proty/clean.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+/* line 94, ../../sass/proty/clean.scss */
+h1 {
+  font-size: 225%;
+}
+
+/* line 98, ../../sass/proty/clean.scss */
+h2 {
+  font-size: 175%;
+}
+
+/* line 102, ../../sass/proty/clean.scss */
+h3 {
+  font-size: 130%;
+}
+
+/* line 106, ../../sass/proty/clean.scss */
+h4 {
+  font-size: 115%;
+}
+
+/* line 110, ../../sass/proty/clean.scss */
+h5 {
+  font-size: 100%;
+}
+
+/* line 114, ../../sass/proty/clean.scss */
+h6 {
+  font-size: 90%;
+}
+
+/* Body Copy ------------------------ */
+/* line 122, ../../sass/proty/clean.scss */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* line 126, ../../sass/proty/clean.scss */
+b {
+  font-weight: bold;
+}
+
+/* line 130, ../../sass/proty/clean.scss */
+hr {
+  margin: 0 0 1em 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #c8c8c8;
+}
+
+/* line 140, ../../sass/proty/clean.scss */
+em {
+  font-style: italic;
+}
+
+/* line 144, ../../sass/proty/clean.scss */
+i {
+  font-style: italic;
+}
+
+/* line 148, ../../sass/proty/clean.scss */
+ins {
+  text-decoration: overline;
+}
+
+/* line 156, ../../sass/proty/clean.scss */
+q {
+  quotes: inherit;
+}
+
+/* line 160, ../../sass/proty/clean.scss */
+q:before {
+  content: open-quote;
+}
+
+/* line 164, ../../sass/proty/clean.scss */
+q:after {
+  content: close-quote;
+}
+
+/* line 170, ../../sass/proty/clean.scss */
+small {
+  font-size: 70%;
+}
+
+/* line 176, ../../sass/proty/clean.scss */
+sub {
+  font-size: 70%;
+  vertical-align: sub;
+}
+
+/* line 181, ../../sass/proty/clean.scss */
+sup {
+  font-size: 70%;
+  vertical-align: super;
+}
+
+/* Lists ---------------------------- */
+/* line 190, ../../sass/proty/clean.scss */
+ol, ul {
+  margin: 1em 0 1em 2em;
+}
+
+/* line 196, ../../sass/proty/clean.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 202, ../../sass/proty/clean.scss */
+ul {
+  list-style-type: square;
+}
+
+/* line 208, ../../sass/proty/clean.scss */
+dl {
+  margin: 10px 0 10px 0;
+}
+
+/* line 212, ../../sass/proty/clean.scss */
+dt {
+  font-size: 120%;
+  font-style: italic;
+}
+
+/* line 217, ../../sass/proty/clean.scss */
+dd {
+  margin: 0 1em 1em 1em;
+}
+
+/* Blockquotes ---------------------- */
+/* line 225, ../../sass/proty/clean.scss */
+blockquote {
+  font-size: 85%;
+  line-height: 120%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 2px solid #cccccc;
+  border-top: 2px solid #cccccc;
+}
+
+/* line 234, ../../sass/proty/clean.scss */
+blockquote small {
+  display: block;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* line 241, ../../sass/proty/clean.scss */
+cite {
+  font-style: italic;
+}
+
+/* Addresses ------------------------ */
+/* line 249, ../../sass/proty/clean.scss */
+address {
+  font-style: italic;
+}
+
+/* Tables --------------------------- */
+/* line 257, ../../sass/proty/clean.scss */
+table {
+  border: 3px double #cccccc;
+  font-size: 85%;
+  margin: 0 0 2em 0;
+}
+
+/* line 263, ../../sass/proty/clean.scss */
+caption {
+  font-size: 75%;
+  text-align: left;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+/* line 274, ../../sass/proty/clean.scss */
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+/* line 281, ../../sass/proty/clean.scss */
+td {
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Code ----------------------------- */
+/* line 294, ../../sass/proty/clean.scss */
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* line 298, ../../sass/proty/clean.scss */
+samp {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Media HTML Elements -------------- */
+/* line 308, ../../sass/proty/clean.scss */
+figure {
+  margin: 2em 0;
+}
+
+/* line 312, ../../sass/proty/clean.scss */
+figcaption {
+  font-size: 70%;
+}
+
+/* line 318, ../../sass/proty/clean.scss */
+video {
+  margin: 2em 0;
+}
+
+/* line 322, ../../sass/proty/clean.scss */
+audio {
+  margin: 2em 0;
+}
+
+/* Miscellaneous Content Elements --- */
+/* line 332, ../../sass/proty/clean.scss */
+iframe {
+  border: 2px groove #F0F0F0;
+}
+
+/* line 340, ../../sass/proty/clean.scss */
+var {
+  font-style: italic;
+}
+
+/* Buttons -------------------------- */
+/* line 352, ../../sass/proty/clean.scss */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input.form-submit {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), color-stop(25%, white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(white, white 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, white, white 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(white, white 25%, #e6e6e6);
+  background-image: -o-linear-gradient(white, white 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333;
+  cursor: pointer;
+  padding: 3px 8px 4px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -ms-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+
+/* line 389, ../../sass/proty/clean.scss */
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input.form-submit:hover,
+input.form-submit:focus {
+  background-position: 0 -15px;
+  color: #333;
+}
+
+/* Forms ---------------------------- */
+/* line 398, ../../sass/proty/clean.scss */
+fieldset {
+  border: 2px #F0F0F0 groove;
+  margin: 2em 0em;
+  padding: 1em;
+}
+
+/* line 404, ../../sass/proty/clean.scss */
+legend {
+  font-style: italic;
+  padding: 0 10px;
+}
+
+/* line 411, ../../sass/proty/clean.scss */
+label {
+  font-size: 85%;
+  font-weight: bold;
+}
+
+/* line 416, ../../sass/proty/clean.scss */
+input, select, textarea {
+  border: 1px solid #999;
+  max-width: 100%;
+  padding: 3px;
+}
+
+/* STYLE ELEMENTS PAGE SPECIFIC --------------------------------------------------------------------------------------- */
+/* line 471, ../../sass/proty/clean.scss */
+.style-elements-page #section-menu,
+.style-elements-page h2.area-label.menu {
+  display: none;
+  /* remove to show menu section on style-elements page */
+}
+
+/* line 475, ../../sass/proty/clean.scss */
+.style-elements-container {
+  margin-top: 0 !important;
+}
+
+/* line 479, ../../sass/proty/clean.scss */
+h2.style-elements-container-title {
+  border-bottom: 1px solid #C8C8C8 !important;
+  margin-bottom: 20px !important;
+}
+
+/* Palette -------------------------- */
+/* include custom styling for the style elements palette primitive here or in the
+/* primitive itself. Colors added below will override default colors inside the 
+/* primitive since these selectors are more specific.  
+/* default wrapper class is .style-elements-palette-html */
+/* line 492, ../../sass/proty/clean.scss */
+.style-elements-palette-html .proty-palette ul.colors li.first div.color {
+  /*background-color: #C41200;*/
+  /* Palette Color 1 */
+}
+
+/* line 496, ../../sass/proty/clean.scss */
+.style-elements-palette-html .proty-palette ul.colors li.second div.color {
+  /*background-color: #000000;*/
+  /* Palette Color 2 */
+}
+
+/* line 500, ../../sass/proty/clean.scss */
+.style-elements-palette-html .proty-palette ul.colors li.third div.color {
+  /*background-color: #73C9AD;*/
+  /* Palette Color 3 */
+}
+
+/* line 504, ../../sass/proty/clean.scss */
+.style-elements-palette-html .proty-palette ul.colors li.fourth div.color {
+  /*background-color: #69660E;*/
+  /* Palette Color 4 */
+}
+
+/* line 508, ../../sass/proty/clean.scss */
+.style-elements-palette-html .proty-palette ul.colors li.fifth div.color {
+  /*background-color: #FF8500;*/
+  /* Palette Color 5 */
+}
+
+/* Local Navigation ----------------- */
+/* include custom styling for the style elements local nav primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-local-nav-html */
+/* Facet Filters -------------------- */
+/* include custom styling for the style elements facet filters primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-facet-filters-html */
+/* Comments ------------------------- */
+/* include custom styling for the style elements comments primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-comments-html */

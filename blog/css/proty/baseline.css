@@ -1,0 +1,185 @@
+/* line 23, ../../sass/proty/_mixins.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 27, ../../sass/proty/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 32, ../../sass/proty/_mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* Common baseline elements */
+/* RESETS ----------------------------------------------------------------------------------------------------------------- */
+/* line 7, ../../sass/proty/baseline.scss */
+html, body, div, note {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 17, ../../sass/proty/baseline.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+  font-weight: bold;
+}
+
+/* line 28, ../../sass/proty/baseline.scss */
+a, p, ul, ol, li, img, span, strong, em {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 38, ../../sass/proty/baseline.scss */
+table, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 50, ../../sass/proty/baseline.scss */
+applet, object, iframe, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, caption, fieldset, form, label, legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 60, ../../sass/proty/baseline.scss */
+article, aside, figure, footer, header, hgroup, section, note {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 70, ../../sass/proty/baseline.scss */
+canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* line 81, ../../sass/proty/baseline.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, note {
+  display: block;
+}
+
+/* line 85, ../../sass/proty/baseline.scss */
+body {
+  line-height: 1;
+}
+
+/* line 89, ../../sass/proty/baseline.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 93, ../../sass/proty/baseline.scss */
+em {
+  font-style: italic;
+}
+
+/* line 97, ../../sass/proty/baseline.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 101, ../../sass/proty/baseline.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 106, ../../sass/proty/baseline.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 112, ../../sass/proty/baseline.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 117, ../../sass/proty/baseline.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 121, ../../sass/proty/baseline.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 126, ../../sass/proty/baseline.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CLEARFIX ------------------------------------------------------------------------------------------------------------- */
+/* OTHER ------------------------------------------------------------------------------------------------------------- */
+/* line 146, ../../sass/proty/baseline.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 150, ../../sass/proty/baseline.scss */
+html.js .js-hide {
+  display: none;
+}
+
+/* line 154, ../../sass/proty/baseline.scss */
+.element-hidden {
+  display: none;
+}
+
+/* line 158, ../../sass/proty/baseline.scss */
+.element-invisible {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+/* line 162, ../../sass/proty/baseline.scss */
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+  clip: auto;
+  position: static !important;
+}

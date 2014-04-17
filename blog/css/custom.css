@@ -1,0 +1,539 @@
+/* Custom Styling -- this file is loaded when the 'custom' theme is selected.  The HTML tag classes "small", "medium", 
+/* and "large" can be used to target specific responsive sizes in this file or in primitive file CSS 
+/* (e.g., the selector ".small p" would target only paragraphs at the 'mobile' size).  To reference custom asset files 
+/* from this file, use the path '../assets/' (e.g., background: url(../assets/myimage.png);  */                                                      
+
+
+/* GENERAL --------------------------------------------------------------------------------------------------------- */
+
+/* Universal Transitions -- you may need to override these on specific items. */
+* {
+  -moz-transition: background-color 0.2s linear, border-color 0.2s linear, -moz-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -moz-transform 0.2s linear;   
+  -ms-transition: background-color 0.2s linear, border-color 0.2s linear, -ms-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -ms-transform 0.2s linear;
+  -o-transition: background-color 0.2s linear, border-color 0.2s linear, -o-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -o-transform 0.2s linear;
+  -webkit-transition: background-color 0.2s linear, border-color 0.2s linear, -webkit-box-shadow 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, -webkit-transform 0.2s linear;  
+  transition: background-color 0.2s linear, border-color 0.2s linear, box-shadow 0.2s linear, color 0.2s linear, opacity 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear; 
+}
+
+html, body {
+  background: rgb(200,200,200);
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;   
+}
+
+img {
+  max-width: 100%; /* Allows for responsive images. May not play nice with img borders */
+}
+
+
+/* Links ------------------------------ */
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  border-bottom: 1px solid rgba(0,0,0,0.0);
+  color: #0000CC;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 1px solid rgba(0,0,0,1.0);
+  color: #000000;
+}
+
+
+/* Element Focus ----------------------- */
+:focus {
+  outline: thin dotted;   
+}
+
+
+
+
+
+/* LAYOUT ---------------------------------------------------------------------------------------------------------- */
+
+#region-branding,
+#region-menu,
+#region-footer,
+.region.region-content {
+  background: rgb(255,255,255);
+  border: 1px solid #ccc;
+}
+
+#region-branding .region-inner,
+#region-menu .region-inner,
+#region-footer .region-inner,
+.region.region-content .region-inner {
+  background-color: #fff;
+}
+
+
+
+
+
+/* COMMON PRIMITIVE ELEMENTS ------------------------------------------------------------------------------------- */
+
+.form-item {
+  margin: 0 0 10px 0;	
+}
+
+.views-field {
+  margin: 0;	
+}
+
+.views-row {
+  margin: 0 0 20px 0;	
+}
+
+.block {
+  margin: 0;	
+}
+
+.block h2.block-title {
+  font-size: 15px;	
+}
+
+
+
+ 
+
+/* HTML ELEMENTS ------------------------------------------------------------------------------------------------- */
+
+/* Headers -------------------------- */
+
+header {}
+
+hgroup {}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;	
+}
+  
+h1 {}
+
+h2 {}
+
+h3 {}
+  
+h4 {}
+
+h5 {}
+
+h6 {}
+
+
+
+/* Body Copy ------------------------ */
+
+p {}
+ 
+b {
+  font-weight: bold;
+}
+
+hr {}
+
+del {}
+
+em {
+  font-style: italic;	
+}
+
+i {
+  font-style: italic;	
+}
+
+ins {
+  text-decoration: overline;
+}
+
+img {}
+
+mark {}
+
+q {
+  quotes: inherit;	
+}
+
+q:before {
+   content: open-quote;
+}
+
+q:after {
+  content: close-quote;	
+}
+
+s {}
+
+small {
+  font-size: 70%;
+}
+
+strong {}
+
+sub {
+  font-size: 70%;
+  vertical-align: sub;	
+}
+
+sup {
+  font-size: 70%;
+  vertical-align: super;
+}
+
+
+
+/* Lists ---------------------------- */
+
+ol, ul {
+  margin: 1em 0 1em 2em;
+}
+
+li {}
+
+ol {
+  list-style: decimal;
+}
+  
+ol li {}
+
+ul {}
+
+ul li {}
+
+dl {
+  margin: 10px 0 10px 0;
+} 
+
+dt {
+  font-style: italic;
+  font-size: 120%;
+}
+
+dd {
+  margin: 0 1em 1em 1em;
+}
+
+
+
+/* Blockquotes ---------------------- */
+
+blockquote {
+  font-size: 85%;
+  line-height: 120%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 2px solid rgb(204,204,204);
+  border-top: 2px solid rgb(204,204,204);
+}
+
+blockquote small {
+  display: block;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
+
+cite {
+  font-style: italic;	
+}
+
+
+
+/* Addresses ------------------------ */
+
+address {
+  font-style: italic;
+}
+
+
+
+/* Tables --------------------------- */
+
+table {
+  border: 3px double rgb(204,204,204);
+  font-size: 85%;
+  margin: 0 0 2em 0;
+}
+  
+caption {
+  font-size: 75%;
+  text-align: left;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+thead {}
+
+tr {}
+
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+tbody {}
+
+td {
+  border: 1px solid rgb(204,204,204);
+  border-collapse: collapse;
+  margin: 0;
+  padding: 5px;
+}
+  
+tfoot {}
+
+
+
+/* Code ----------------------------- */
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+samp {
+  font-family: "Courier New", Courier, monospace;	
+}
+
+pre {}
+
+
+
+/* Media HTML Elements -------------- */
+
+figure {
+  margin: 2em 0;  
+}
+  
+figcaption {
+  font-size: 70%;
+}
+
+img {}
+ 
+video {
+  margin: 2em 0;  
+}
+
+audio {
+  margin: 2em 0;      
+} 
+
+
+
+/* Miscellaneous Content Elements --- */
+
+abbr {}
+
+iframe {
+  border: 2px groove #F0F0F0;
+}
+ 
+progress {}
+
+time {}
+
+var {
+  font-style: italic;
+}
+
+ 
+ 
+/* Buttons -------------------------- */
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input.form-submit {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333;
+  cursor: pointer;
+  padding: 3px 8px 4px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -ms-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input.form-submit:hover,
+input.form-submit:focus {
+  background-position: 0 -15px;
+  color: #333;
+}
+
+
+
+/* Forms ---------------------------- */
+
+fieldset {
+  border: 2px #F0F0F0 groove;
+  margin: 2em 0em;    
+  padding: 1em;
+}
+
+legend {
+  font-style: italic;
+  padding: 0 10px;
+}
+
+form {}
+
+label {
+  font-size: 85%;
+  font-weight: bold;	
+}
+
+input,select,textarea {
+  border: 1px solid #999;
+  max-width: 100%;
+  padding: 3px;
+}
+  
+input:hover,select:hover,textarea:hover {		
+
+}
+  
+input:focus,select:focus,textarea:focus {
+
+}
+
+input:active,select:active,textarea:active {
+
+}
+
+input {}	
+input[type="checkbox"] {}
+input[type="color"] {}
+input[type="date"] {}
+input[type="datetime"] {}
+input[type="datetime-local"] {}
+input[type="email"] {}
+input[type="file"] {}
+input[type="image"] {}
+input[type="month"] {}
+input[type="number"] {}
+input[type="password"] {}
+input[type="radio"] {}
+input[type="range"] {}
+input[type="reset"] {}
+input[type="search"] {}
+input[type="tel"] {}
+input[type="text"] {}
+input[type="time"] {}
+input[type="url"] {}
+input[type="week"] {}
+
+select {}
+
+optgroup {}
+
+option {}
+
+textarea {}
+
+
+
+
+
+
+
+
+
+
+/* STYLE ELEMENTS PAGE SPECIFIC --------------------------------------------------------------------------------------- */  
+
+.style-elements-page #section-menu,
+.style-elements-page h2.area-label.menu {
+  display: none;  /* remove to show menu section on style-elements page */
+}
+
+.style-elements-container {
+  margin-top: 0 !important;
+}
+
+h2.style-elements-container-title {
+  border-bottom: 1px solid #C8C8C8 !important;
+  margin-bottom: 20px !important;
+}
+
+
+
+/* Palette -------------------------- */
+/* include custom styling for the style elements palette primitive here or in the
+/* primitive itself. Colors added below will override default colors inside the 
+/* primitive since these selectors are more specific.  
+/* default wrapper class is .style-elements-palette-html */
+
+.style-elements-palette-html .proty-palette ul.colors li.first div.color {
+  /*background-color: #C41200;*/  /* Palette Color 1 */
+}
+
+.style-elements-palette-html .proty-palette ul.colors li.second div.color {
+  /*background-color: #000000;*/  /* Palette Color 2 */
+}
+
+.style-elements-palette-html .proty-palette ul.colors li.third div.color {
+  /*background-color: #73C9AD;*/  /* Palette Color 3 */
+}
+
+.style-elements-palette-html .proty-palette ul.colors li.fourth div.color {
+  /*background-color: #69660E;*/  /* Palette Color 4 */
+}
+
+.style-elements-palette-html .proty-palette ul.colors li.fifth div.color {
+  /*background-color: #FF8500;*/  /* Palette Color 5 */
+}  
+
+
+
+/* Local Navigation ----------------- */
+/* include custom styling for the style elements local nav primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-local-nav-html */
+
+
+
+
+/* Facet Filters -------------------- */
+/* include custom styling for the style elements facet filters primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-facet-filters-html */
+
+
+
+
+/* Comments ------------------------- */
+/* include custom styling for the style elements comments primitive here or in the
+/* primitive itself. default wrapper class is .style-elements-comments-html */

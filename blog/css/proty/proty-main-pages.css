@@ -1,0 +1,877 @@
+/* FONTS ----------------------------------------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Entypo';
+  src: url("fonts/Entypo/entypo-webfont.eot");
+  src: url("fonts/Entypo/entypo-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Entypo/entypo-webfont.woff") format("woff"), url("fonts/Entypo/entypo-webfont.ttf") format("truetype"), url("fonts/Entypo/entypo-webfont.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url("fonts/League_Gothic/League_Gothic-webfont.eot");
+  src: url("fonts/League_Gothic/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/League_Gothic/League_Gothic-webfont.woff") format("woff"), url("fonts/League_Gothic/League_Gothic-webfont.ttf") format("truetype"), url("fonts/League_Gothic/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Modern';
+  src: url("fonts/modernpictograms/modernpics-webfont.eot");
+  src: url("fonts/modernpictograms/modernpics-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/modernpictograms/modernpics-webfont.woff") format("woff"), url("fonts/modernpictograms/modernpics-webfont.ttf") format("truetype"), url("fonts/modernpictograms/modernpics-webfont.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Socialico';
+  src: url("fonts/Socialico/socialico-webfont.eot");
+  src: url("fonts/Socialico/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Socialico/socialico-webfont.woff") format("woff"), url("fonts/Socialico/socialico-webfont.ttf") format("truetype"), url("fonts/Socialico/socialico-webfont.svg##Socialico") format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sketch';
+  src: url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.eot");
+  src: url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.woff") format("woff"), url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* GENERAL STYLES --------------------------------------------------------------------------------------------------- */
+/* line 6, ../../sass/proty/proty-main-pages.scss */
+* {
+  -webkit-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
+  -moz-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -moz-transform;
+  -o-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -o-transform;
+  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+/* line 12, ../../sass/proty/proty-main-pages.scss */
+html, body {
+  background: #c8c8c8;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  min-width: 980px;
+  line-height: 1.5;
+}
+
+/* line 25, ../../sass/proty/proty-main-pages.scss */
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  color: #15a5ae;
+  text-decoration: none;
+}
+
+/* line 32, ../../sass/proty/proty-main-pages.scss */
+a:hover,
+a:focus {
+  border-bottom: 1px solid black;
+  color: #000000;
+}
+
+/* line 37, ../../sass/proty/proty-main-pages.scss */
+:focus {
+  outline: thin dotted;
+}
+
+/* line 45, ../../sass/proty/proty-main-pages.scss */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input.form-submit {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(25%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333;
+  cursor: pointer;
+  padding: 3px 8px 4px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+/* line 59, ../../sass/proty/proty-main-pages.scss */
+button:hover, button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input.form-submit:hover,
+input.form-submit:focus {
+  background-position: 0 -15px;
+  color: #333;
+}
+/* line 63, ../../sass/proty/proty-main-pages.scss */
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input.form-submit:active {
+  border-color: #333;
+}
+
+/* line 68, ../../sass/proty/proty-main-pages.scss */
+b {
+  font-weight: bold;
+}
+
+/* line 72, ../../sass/proty/proty-main-pages.scss */
+em {
+  font-style: italic;
+}
+
+/* line 76, ../../sass/proty/proty-main-pages.scss */
+i {
+  font-style: italic;
+}
+
+/* line 80, ../../sass/proty/proty-main-pages.scss */
+small {
+  font-size: 70%;
+}
+
+/* line 84, ../../sass/proty/proty-main-pages.scss */
+sub {
+  font-size: 70%;
+  vertical-align: sub;
+}
+
+/* line 89, ../../sass/proty/proty-main-pages.scss */
+sup {
+  font-size: 70%;
+  vertical-align: super;
+}
+
+/* line 94, ../../sass/proty/proty-main-pages.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica,Verdana,Arial,sans-serif;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+/* line 99, ../../sass/proty/proty-main-pages.scss */
+h1 {
+  font-family: 'League Gothic';
+  font-weight: normal;
+}
+
+/* line 103, ../../sass/proty/proty-main-pages.scss */
+table {
+  border-top: 1px solid #cccccc;
+  margin: 20px 20px 0 0;
+}
+
+/* line 108, ../../sass/proty/proty-main-pages.scss */
+caption {
+  font-size: 75%;
+  text-align: left;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+/* line 119, ../../sass/proty/proty-main-pages.scss */
+tr {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 121, ../../sass/proty/proty-main-pages.scss */
+tr:hover {
+  background-color: #F4F9B3;
+}
+
+/* line 126, ../../sass/proty/proty-main-pages.scss */
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+/* line 133, ../../sass/proty/proty-main-pages.scss */
+td {
+  border: 0;
+  margin: 0;
+  padding: 5px;
+}
+
+/* line 141, ../../sass/proty/proty-main-pages.scss */
+ol, ul {
+  margin: 1em 0 1em 2em;
+}
+
+/* line 145, ../../sass/proty/proty-main-pages.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 149, ../../sass/proty/proty-main-pages.scss */
+dl {
+  margin: 10px 0 10px 0;
+}
+
+/* line 153, ../../sass/proty/proty-main-pages.scss */
+dt {
+  font-style: italic;
+  font-size: 120%;
+}
+
+/* line 158, ../../sass/proty/proty-main-pages.scss */
+dd {
+  margin: 0 1em 1em 1em;
+}
+
+/* line 162, ../../sass/proty/proty-main-pages.scss */
+fieldset {
+  border: 2px #F0F0F0 groove;
+  margin: 2em 1em;
+  padding: 1em;
+}
+
+/* line 168, ../../sass/proty/proty-main-pages.scss */
+legend {
+  font-style: italic;
+  padding: 0 10px;
+}
+
+/* line 175, ../../sass/proty/proty-main-pages.scss */
+label {
+  font-size: 85%;
+  font-weight: bold;
+}
+
+/* line 180, ../../sass/proty/proty-main-pages.scss */
+input, select, textarea {
+  border: 1px solid #999;
+  max-width: 100%;
+  padding: 3px;
+}
+
+/* MAIN PROTY PAGES ----------------------------------------------------------------------------------------------- */
+/* PROJECT LIST */
+/* line 191, ../../sass/proty/proty-main-pages.scss */
+.project-container {
+  background-color: #f6f6ee;
+  background-image: url("../../media/images/bground_felt_15percent.png");
+  bottom: 86px;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 60px;
+  width: 250px;
+  z-index: 5;
+}
+/* line 201, ../../sass/proty/proty-main-pages.scss */
+.project-container #project-container-inner {
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* line 208, ../../sass/proty/proty-main-pages.scss */
+h1.projects-title {
+  font-size: 200%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 214, ../../sass/proty/proty-main-pages.scss */
+table.project-list {
+  width: 100%;
+}
+/* line 216, ../../sass/proty/proty-main-pages.scss */
+table.project-list td {
+  vertical-align: middle;
+}
+
+/* line 221, ../../sass/proty/proty-main-pages.scss */
+td.project {
+  vertical-align: middle;
+  width: 90%;
+}
+/* line 224, ../../sass/proty/proty-main-pages.scss */
+td.project h2 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 2px 0;
+}
+/* line 229, ../../sass/proty/proty-main-pages.scss */
+td.project h2 a {
+  border: none;
+  display: block;
+  padding-top: 4px;
+}
+
+/* line 237, ../../sass/proty/proty-main-pages.scss */
+.new-project {
+  float: left;
+  margin-right: 6px;
+}
+
+/* PROJECT PAGE -------------------------------------------------------------------------------------------------- */
+/* Logo */
+/* line 248, ../../sass/proty/proty-main-pages.scss */
+.logo-proty {
+  position: fixed;
+  background: transparent;
+  z-index: 999;
+  top: 7px;
+  left: 11px;
+}
+/* line 255, ../../sass/proty/proty-main-pages.scss */
+.logo-proty a,
+.logo-proty a:hover {
+  border: none;
+}
+
+/* line 260, ../../sass/proty/proty-main-pages.scss */
+header {
+  background-color: #000000;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 268, ../../sass/proty/proty-main-pages.scss */
+h1.proty-title {
+  float: left;
+  font-size: 40px;
+  margin: 0 0 0 68px;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+/* line 274, ../../sass/proty/proty-main-pages.scss */
+h1.proty-title a {
+  border: 0;
+  color: #FFF;
+}
+/* line 278, ../../sass/proty/proty-main-pages.scss */
+h1.proty-title a:hover, h1.proty-title a:focus {
+  color: #15A5AE;
+}
+/* line 282, ../../sass/proty/proty-main-pages.scss */
+h1.proty-title span.proty-version {
+  font-size: 24px;
+  margin-left: 4px;
+}
+/* line 286, ../../sass/proty/proty-main-pages.scss */
+body.main-page h1.proty-title {
+  margin-left: 116px;
+}
+
+/* line 291, ../../sass/proty/proty-main-pages.scss */
+header span {
+  text-transform: uppercase;
+}
+
+/* line 295, ../../sass/proty/proty-main-pages.scss */
+body.project-page .project-list-link {
+  float: left;
+  padding-top: 26px;
+}
+/* line 298, ../../sass/proty/proty-main-pages.scss */
+body.project-page .project-list-link a:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* line 304, ../../sass/proty/proty-main-pages.scss */
+#project-name {
+  padding: 0 10px;
+  text-transform: none;
+}
+
+/* line 309, ../../sass/proty/proty-main-pages.scss */
+#container {
+  margin: 0;
+  width: 100%;
+  min-width: 960px;
+  overflow: auto;
+}
+
+/* Versions */
+/* line 319, ../../sass/proty/proty-main-pages.scss */
+#col-1 {
+  background-color: #4f4b4c;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  bottom: 86px;
+  color: #fff;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 60px;
+  width: 250px;
+  z-index: 5;
+}
+
+/* line 332, ../../sass/proty/proty-main-pages.scss */
+#version-wrapper {
+  margin-bottom: -12px;
+  margin-top: -12px;
+  overflow: hidden;
+}
+
+/* line 338, ../../sass/proty/proty-main-pages.scss */
+.versions-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+/* line 345, ../../sass/proty/proty-main-pages.scss */
+h1.versions-title {
+  float: left;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0 15px 10px 0;
+  padding: 12px 0 0 20px;
+}
+
+/* line 353, ../../sass/proty/proty-main-pages.scss */
+.new-version {
+  float: left;
+  padding: 18px 0 0 0;
+}
+
+/* line 358, ../../sass/proty/proty-main-pages.scss */
+#version-list-container {
+  bottom: 0;
+  overflow: auto;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: 25;
+}
+
+/* line 367, ../../sass/proty/proty-main-pages.scss */
+ul.version-list {
+  list-style: none;
+  margin: 0 0 0 0;
+  min-height: 200px;
+  padding: 0;
+  overflow: auto;
+}
+/* line 373, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li {
+  background-color: #15a5ae;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  border-top: 1px solid #3d3b3b;
+  height: 36px;
+  list-style: none;
+  margin: 0 0 0 -30px;
+  overflow: hidden;
+  padding: 0 0 0 30px;
+  position: relative;
+  -webkit-transition: height 0.2s linear, background-color 0.2s linear;
+  -moz-transition: height 0.2s linear, background-color 0.2s linear;
+  -o-transition: height 0.2s linear, background-color 0.2s linear;
+  transition: height 0.2s linear, background-color 0.2s linear;
+}
+/* line 384, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li:hover {
+  background-color: #40bec6;
+}
+/* line 391, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li a.version-link:link,
+ul.version-list li a.version-link:visited,
+ul.version-list li a.version-link:hover,
+ul.version-list li a.version-link:focus,
+ul.version-list li a.version-link:active {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  display: block;
+  padding: 6px 10px 6px 20px;
+}
+/* line 400, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li a.version-link:hover,
+ul.version-list li a.version-link:focus {
+  color: #fff;
+}
+/* line 404, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version h2 {
+  border-top: 1px solid #9ad7da;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 0 0;
+}
+/* line 410, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version.active {
+  background-color: #f6f6ee;
+  height: 75px;
+}
+/* line 413, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version.active:hover {
+  background-color: #f6f6ee;
+}
+/* line 416, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version.active h2 {
+  background-image: url("../../media/images/bground_felt_15percent.png");
+  border-top: 1px solid #f6f6ee;
+}
+/* line 420, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version.active a.version-link {
+  background-color: #f6f6ee;
+  background-image: url("../../media/images/bground_felt_15percent.png");
+  color: #000;
+}
+/* line 425, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li.version.active .version-controls {
+  display: block;
+}
+/* line 430, ../../sass/proty/proty-main-pages.scss */
+ul.version-list li a {
+  color: #fff;
+}
+
+/* Pages */
+/* line 441, ../../sass/proty/proty-main-pages.scss */
+#col-2 {
+  background-color: #f6f6ee;
+  background-image: url("../../media/images/bground_felt_15percent.png");
+  bottom: 86px;
+  left: 0;
+  min-width: 980px;
+  overflow: auto;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+}
+/* line 452, ../../sass/proty/proty-main-pages.scss */
+#col-2 .col-inner {
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 272px;
+}
+
+/* line 459, ../../sass/proty/proty-main-pages.scss */
+h1.page-title {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 469, ../../sass/proty/proty-main-pages.scss */
+table.pages {
+  border-top: 1px solid #cccccc;
+  display: none;
+  width: 100%;
+}
+/* line 473, ../../sass/proty/proty-main-pages.scss */
+table.pages tr:hover {
+  background-color: #F4F9B3;
+}
+/* line 476, ../../sass/proty/proty-main-pages.scss */
+table.pages td {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+/* line 479, ../../sass/proty/proty-main-pages.scss */
+table.pages td.page-controls-container {
+  padding: 6px 0 1px 8px;
+  width: 94px;
+}
+/* line 483, ../../sass/proty/proty-main-pages.scss */
+table.pages td.page-modified-date {
+  color: #444;
+  font-size: 75%;
+  font-style: italic;
+  width: 240px;
+  white-space: nowrap;
+}
+/* line 491, ../../sass/proty/proty-main-pages.scss */
+table.pages a.page {
+  border: 0;
+  display: block;
+}
+
+/* line 498, ../../sass/proty/proty-main-pages.scss */
+.project-controls,
+.version-controls {
+  display: block;
+  height: 29px;
+  padding: 0 0 0 17px;
+  white-space: nowrap;
+}
+
+/* line 505, ../../sass/proty/proty-main-pages.scss */
+.project-controls {
+  padding-top: 4px;
+  min-width: 142px;
+}
+
+/* line 510, ../../sass/proty/proty-main-pages.scss */
+.page-controls {
+  display: inline-block;
+  height: 29px;
+  white-space: nowrap;
+}
+
+/* line 518, ../../sass/proty/proty-main-pages.scss */
+.project-controls button,
+.version-controls button,
+.page-controls button {
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: Entypo;
+  font-size: 30px;
+  height: 25px;
+  line-height: 16px;
+  padding: 0;
+  position: relative;
+  margin: 2px 2px;
+  width: 25px;
+}
+/* line 530, ../../sass/proty/proty-main-pages.scss */
+.project-controls button span,
+.version-controls button span,
+.page-controls button span {
+  left: 4px;
+  position: absolute;
+  top: -1px;
+}
+
+/* Add Buttons */
+/* line 543, ../../sass/proty/proty-main-pages.scss */
+.new-project button,
+.new-version button,
+button.newpage,
+button.export-all {
+  padding-left: 20px;
+  position: relative;
+}
+
+/* line 548, ../../sass/proty/proty-main-pages.scss */
+button#export-backup {
+  padding-left: 25px;
+  position: relative;
+}
+
+/* line 557, ../../sass/proty/proty-main-pages.scss */
+.new-project button span,
+.new-version button span,
+button.newpage span,
+button.export-all span,
+button#export-backup span {
+  color: #847a00;
+  display: block;
+  font-family: Entypo;
+  font-size: 30px;
+  position: absolute;
+  left: 5px;
+  line-height: 6px;
+  height: 16px;
+  top: 4px;
+  width: 16px;
+}
+
+/* line 571, ../../sass/proty/proty-main-pages.scss */
+button.newpage,
+button.export-all {
+  display: none;
+}
+
+/* line 575, ../../sass/proty/proty-main-pages.scss */
+button.delete {
+  color: #cd4621;
+}
+
+/* line 579, ../../sass/proty/proty-main-pages.scss */
+.note {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 15px;
+}
+
+/* line 585, ../../sass/proty/proty-main-pages.scss */
+#page-preview {
+  margin: 10px 0 0 0;
+}
+/* line 587, ../../sass/proty/proty-main-pages.scss */
+#page-preview img {
+  border: 1px solid #999;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+/* line 596, ../../sass/proty/proty-main-pages.scss */
+footer {
+  background-color: #000000;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  bottom: 0;
+  color: #fff;
+  font-size: 12px;
+  height: 86px;
+  line-height: 15px;
+  min-width: 980px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: 10;
+}
+/* line 611, ../../sass/proty/proty-main-pages.scss */
+footer a:hover,
+footer a:active,
+footer a:focus {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+
+/* line 617, ../../sass/proty/proty-main-pages.scss */
+.disclaimer {
+  clear: both;
+  float: left;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 14px;
+  padding: 10px 20px 0 20px;
+  width: 500px;
+}
+/* line 625, ../../sass/proty/proty-main-pages.scss */
+.disclaimer p {
+  font-size: 11px;
+  line-height: 14px;
+  margin: 0 0 5px 0;
+}
+
+/* line 632, ../../sass/proty/proty-main-pages.scss */
+.attribution {
+  float: right;
+  margin: 0 0 0 auto;
+  padding: 10px 20px 0 0;
+  width: 500px;
+}
+/* line 637, ../../sass/proty/proty-main-pages.scss */
+.attribution .credit {
+  float: left;
+  width: 250px;
+}
+/* line 640, ../../sass/proty/proty-main-pages.scss */
+.attribution .credit a {
+  border: 0;
+}
+/* line 643, ../../sass/proty/proty-main-pages.scss */
+.attribution .credit img {
+  margin-top: 6px;
+  max-width: 144px;
+}
+/* line 648, ../../sass/proty/proty-main-pages.scss */
+.attribution .BSD {
+  float: right;
+  width: 250px;
+}
+
+/* MODALS ----------------------------------------------------------------------------------------------------------- */
+/* line 660, ../../sass/proty/proty-main-pages.scss */
+#osx-modal-content,
+#osx-modal-data {
+  display: none;
+}
+
+/* line 664, ../../sass/proty/proty-main-pages.scss */
+#osx-overlay {
+  background-color: #000;
+  cursor: wait;
+}
+
+/* line 669, ../../sass/proty/proty-main-pages.scss */
+#osx-container {
+  background-color: #eee;
+  -webkit-box-shadow: 0 2px 0 black;
+  -moz-box-shadow: 0 2px 0 black;
+  box-shadow: 0 2px 0 black;
+  color: #000;
+  font: 16px/24px Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-bottom: 4px;
+  width: 600px;
+}
+/* line 676, ../../sass/proty/proty-main-pages.scss */
+#osx-container a {
+  color: #ddd;
+}
+/* line 679, ../../sass/proty/proty-main-pages.scss */
+#osx-container #osx-modal-title {
+  background-color: #383838;
+  color: #fff;
+  font-weight: normal;
+  padding: 6px 8px 6px 14px;
+}
+/* line 685, ../../sass/proty/proty-main-pages.scss */
+#osx-container .close {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 690, ../../sass/proty/proty-main-pages.scss */
+#osx-container .close a {
+  color: #777;
+  display: block;
+  font-weight: bold;
+  padding: 6px 12px 0;
+  text-decoration: none;
+}
+/* line 696, ../../sass/proty/proty-main-pages.scss */
+#osx-container .close a:hover {
+  border: 0;
+  color: #000;
+}
+/* line 702, ../../sass/proty/proty-main-pages.scss */
+#osx-container #osx-modal-data {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+/* line 706, ../../sass/proty/proty-main-pages.scss */
+#osx-container h2 {
+  margin: 10px 0 6px;
+}
+/* line 709, ../../sass/proty/proty-main-pages.scss */
+#osx-container p {
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+/* line 713, ../../sass/proty/proty-main-pages.scss */
+#osx-container span {
+  color: #777;
+}
+/* line 716, ../../sass/proty/proty-main-pages.scss */
+#osx-container button {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin: 5px;
+}

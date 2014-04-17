@@ -1,0 +1,87 @@
+/* Styling for Sketch Theme */
+/* GENERAL --------------------------------------------------------------------------------------------------------- */
+/* line 6, ../../sass/proty/sketch.scss */
+html {
+  background-image: url(../../media/images/bground_felt_35percent.png);
+  background-color: whitesmoke;
+}
+
+/* line 11, ../../sass/proty/sketch.scss */
+body {
+  background-color: transparent;
+}
+
+/* Used if 'Sketch' is active in Proty */
+/* line 22, ../../sass/proty/sketch.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset legend {
+  font-family: 'Sketch',Helvetica,Verdana,Arial,sans-serif;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+/* LAYOUT ---------------------------------------------------------------------------------------------------------- */
+/* line 38, ../../sass/proty/sketch.scss */
+.medium #region-branding, .large #region-branding, .medium
+#region-menu, .large
+#region-menu, .medium
+#region-footer, .large
+#region-footer, .medium
+.region.region-content, .large
+.region.region-content {
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 1px 1px rgba(100, 100, 100, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(100, 100, 100, 0.2);
+  box-shadow: 0 1px 1px rgba(100, 100, 100, 0.2);
+}
+/* line 43, ../../sass/proty/sketch.scss */
+.medium #region-branding.region-inner, .large #region-branding.region-inner, .medium
+#region-menu.region-inner, .large
+#region-menu.region-inner, .medium
+#region-footer.region-inner, .large
+#region-footer.region-inner, .medium
+.region.region-content.region-inner, .large
+.region.region-content.region-inner {
+  padding: 5px;
+}
+/* line 47, ../../sass/proty/sketch.scss */
+.lte9 #region-branding, .lte9
+#region-menu, .lte9
+#region-footer, .lte9
+.region.region-content {
+  background: #fff;
+}
+
+/* MENUS ----------------------------------------------------------------------------------------------------------- */
+/* line 58, ../../sass/proty/sketch.scss */
+nav ul.menu {
+  font-family: 'Sketch',Helvetica,Verdana,Arial,sans-serif;
+}
+
+/* THEME ADJUSTMENTS */
+/* line 68, ../../sass/proty/sketch.scss */
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #15A5AE;
+}
+
+/* line 73, ../../sass/proty/sketch.scss */
+a:hover,
+a:focus {
+  color: #000000;
+}
+
+/* line 77, ../../sass/proty/sketch.scss */
+fieldset {
+  border: 1px solid #d2d2d2;
+}

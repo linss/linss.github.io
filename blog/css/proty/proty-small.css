@@ -1,0 +1,1325 @@
+/* FONTS ----------------------------------------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Entypo';
+  src: url("fonts/Entypo/entypo-webfont.eot");
+  src: url("fonts/Entypo/entypo-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Entypo/entypo-webfont.woff") format("woff"), url("fonts/Entypo/entypo-webfont.ttf") format("truetype"), url("fonts/Entypo/entypo-webfont.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url("fonts/League_Gothic/League_Gothic-webfont.eot");
+  src: url("fonts/League_Gothic/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/League_Gothic/League_Gothic-webfont.woff") format("woff"), url("fonts/League_Gothic/League_Gothic-webfont.ttf") format("truetype"), url("fonts/League_Gothic/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Modern';
+  src: url("fonts/modernpictograms/modernpics-webfont.eot");
+  src: url("fonts/modernpictograms/modernpics-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/modernpictograms/modernpics-webfont.woff") format("woff"), url("fonts/modernpictograms/modernpics-webfont.ttf") format("truetype"), url("fonts/modernpictograms/modernpics-webfont.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Socialico';
+  src: url("fonts/Socialico/socialico-webfont.eot");
+  src: url("fonts/Socialico/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Socialico/socialico-webfont.woff") format("woff"), url("fonts/Socialico/socialico-webfont.ttf") format("truetype"), url("fonts/Socialico/socialico-webfont.svg##Socialico") format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sketch';
+  src: url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.eot");
+  src: url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.woff") format("woff"), url("fonts/Sketch-Rockwell/sketchrockwell-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Proty specific styles.  Loaded at all window sizes. */
+/* LAYOUT ---------------------------------------------------------------------------------------------------------- */
+/* line 11, ../../sass/proty/proty-small.scss */
+#region-branding,
+#region-menu,
+#region-footer,
+.region.region-content {
+  margin-top: 1em;
+}
+/* line 13, ../../sass/proty/proty-small.scss */
+#region-branding .region-inner,
+#region-menu .region-inner,
+#region-footer .region-inner,
+.region.region-content .region-inner {
+  min-height: 60px;
+  padding: 5px;
+}
+/* line 16, ../../sass/proty/proty-small.scss */
+.disabled #region-branding .region-inner, .disabled
+#region-menu .region-inner, .disabled
+#region-footer .region-inner, .disabled
+.region.region-content .region-inner {
+  min-height: 0;
+}
+/* line 21, ../../sass/proty/proty-small.scss */
+.disabled #region-branding.empty, .disabled
+#region-menu.empty, .disabled
+#region-footer.empty, .disabled
+.region.region-content.empty {
+  display: none !important;
+}
+/* line 25, ../../sass/proty/proty-small.scss */
+#region-branding.empty .region-inner,
+#region-menu.empty .region-inner,
+#region-footer.empty .region-inner,
+.region.region-content.empty .region-inner {
+  padding: 0;
+}
+
+/* line 31, ../../sass/proty/proty-small.scss */
+#region-menu .region-inner {
+  min-height: 20px;
+  overflow: visible;
+}
+
+/* line 36, ../../sass/proty/proty-small.scss */
+.zone {
+  min-height: 25px;
+}
+/* line 38, ../../sass/proty/proty-small.scss */
+.disabled .zone {
+  min-height: 0;
+}
+
+/* line 43, ../../sass/proty/proty-small.scss */
+#zone-wrapper {
+  position: relative;
+}
+
+/* EDITING FUNCTIONS -------------------------------------------------------------------------------------------------------- */
+/* line 55, ../../sass/proty/proty-small.scss */
+h2.area-label {
+  display: none;
+}
+
+/* line 59, ../../sass/proty/proty-small.scss */
+.region .thing {
+  position: relative;
+  margin: 0;
+}
+
+/* line 64, ../../sass/proty/proty-small.scss */
+.thing note {
+  display: none;
+}
+/* line 66, ../../sass/proty/proty-small.scss */
+.disabled .thing note {
+  display: none;
+}
+/* line 69, ../../sass/proty/proty-small.scss */
+.small .thing note {
+  display: none !important;
+}
+
+/* line 74, ../../sass/proty/proty-small.scss */
+.thing .note {
+  display: none;
+}
+/* line 76, ../../sass/proty/proty-small.scss */
+.small .thing .note {
+  display: none !important;
+}
+
+/* line 81, ../../sass/proty/proty-small.scss */
+.thing.empty {
+  clear: both;
+}
+/* line 83, ../../sass/proty/proty-small.scss */
+.disabled .thing.empty {
+  display: none;
+}
+
+/* line 88, ../../sass/proty/proty-small.scss */
+.thing.clearthings {
+  clear: both;
+}
+
+/* line 92, ../../sass/proty/proty-small.scss */
+.thing .file-container {
+  min-height: 20px;
+  padding: 10px;
+}
+/* line 95, ../../sass/proty/proty-small.scss */
+.disabled .thing .file-container {
+  min-height: 0;
+}
+
+/* line 103, ../../sass/proty/proty-small.scss */
+.thing .add,
+.thing .editor,
+.column-thing .column-editor,
+.column-thing-add {
+  display: none;
+}
+
+/* line 112, ../../sass/proty/proty-small.scss */
+#editTray,
+#infoTray,
+#componentTray {
+  background-color: #000000;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  border: 1px solid #969696;
+  bottom: 0;
+  -webkit-box-shadow: 2px 0 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: block;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  left: -180px;
+  padding: 5px 15px 5px 27px;
+  position: fixed;
+  top: 0;
+  -webkit-transition: left 0.5s ease-in-out;
+  -moz-transition: left 0.5s ease-in-out;
+  -o-transition: left 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
+  width: 130px;
+  z-index: 2000;
+}
+/* line 128, ../../sass/proty/proty-small.scss */
+#editTray.open,
+#infoTray.open,
+#componentTray.open {
+  left: -20px;
+}
+/* line 131, ../../sass/proty/proty-small.scss */
+#editTray.active,
+#infoTray.active,
+#componentTray.active {
+  z-index: 2002;
+}
+
+/* line 136, ../../sass/proty/proty-small.scss */
+.lte8 #infoTray {
+  display: none !important;
+}
+
+/* line 142, ../../sass/proty/proty-small.scss */
+#cog,
+#info,
+#component {
+  background: none;
+  background-color: #0a0a0a !important;
+  background-image: url("../../media/images/bground_felt_35percent.png");
+  border: 1px solid #969696;
+  border-left: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  -webkit-box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  font-weight: normal;
+  height: 30px;
+  left: -3px;
+  line-height: 30px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  text-shadow: none;
+  top: 60px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.3s ease-in-out, left 0.5s ease-in-out, background-color 0.2s linear;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.3s ease-in-out, left 0.5s ease-in-out, background-color 0.2s linear;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 0.3s ease-in-out, left 0.5s ease-in-out, background-color 0.2s linear;
+  transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out, left 0.5s ease-in-out, background-color 0.2s linear;
+  vertical-align: middle;
+  width: 33px;
+  z-index: 1999;
+}
+/* line 166, ../../sass/proty/proty-small.scss */
+#cog:hover,
+#info:hover,
+#component:hover {
+  background-color: #000000 !important;
+}
+/* line 169, ../../sass/proty/proty-small.scss */
+#cog span,
+#info span,
+#component span {
+  color: #f6f6ee;
+  color: rgba(246, 246, 238, 0.7);
+  display: block;
+  font-family: Entypo;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -13px;
+  margin-left: -1px;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+/* line 182, ../../sass/proty/proty-small.scss */
+#cog:hover span,
+#info:hover span,
+#component:hover span {
+  color: #f6f6ee;
+  color: #f6f6ee;
+}
+/* line 186, ../../sass/proty/proty-small.scss */
+#cog.open,
+#info.open,
+#component.open {
+  left: 153px;
+}
+/* line 189, ../../sass/proty/proty-small.scss */
+#cog.active,
+#info.active,
+#component.active {
+  background-color: #000000 !important;
+  z-index: 2003;
+}
+/* line 192, ../../sass/proty/proty-small.scss */
+#cog.active span,
+#info.active span,
+#component.active span {
+  color: #f6f6ee !important;
+}
+
+/* line 198, ../../sass/proty/proty-small.scss */
+.credit {
+  bottom: 10px;
+  font-size: 10px;
+  left: 25px;
+  line-height: 13px;
+  position: absolute;
+  text-align: center;
+  width: 130px;
+}
+/* line 206, ../../sass/proty/proty-small.scss */
+.credit .proty {
+  text-align: center;
+}
+/* line 208, ../../sass/proty/proty-small.scss */
+.credit .proty .proty-icon {
+  display: block;
+  margin: 5px 0 10px;
+}
+/* line 211, ../../sass/proty/proty-small.scss */
+.credit .proty .proty-icon img {
+  width: 40px;
+}
+/* line 216, ../../sass/proty/proty-small.scss */
+.credit a {
+  border: 0 !important;
+}
+/* line 218, ../../sass/proty/proty-small.scss */
+.credit a img {
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 223, ../../sass/proty/proty-small.scss */
+.credit div {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 229, ../../sass/proty/proty-small.scss */
+#info {
+  top: 97px;
+}
+/* line 231, ../../sass/proty/proty-small.scss */
+.lte8 #info {
+  display: none !important;
+}
+
+/* line 236, ../../sass/proty/proty-small.scss */
+#component {
+  top: 134px;
+}
+
+/* line 240, ../../sass/proty/proty-small.scss */
+#templatemeta {
+  margin: 10px 0;
+  overflow-y: auto;
+}
+/* line 243, ../../sass/proty/proty-small.scss */
+#templatemeta h2 {
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 0.875em;
+  margin: 0 0 4px 0;
+  padding: 0 0 4px 5px;
+  text-shadow: none;
+}
+/* line 253, ../../sass/proty/proty-small.scss */
+#templatemeta p {
+  line-height: 125%;
+  font-size: 0.875em;
+  padding-left: 5px;
+}
+
+/* line 260, ../../sass/proty/proty-small.scss */
+#metadata-description {
+  height: 70px;
+  max-height: 70px;
+  max-width: 530px;
+  width: 530px;
+}
+
+/* line 277, ../../sass/proty/proty-small.scss */
+.editor-box .save,
+.editor-box .close,
+#edit-toggle,
+#design-toggle,
+#notes-toggle,
+#css-custom-editor,
+#add-asset,
+#list-assets,
+#list-prims,
+#metaedit,
+#export {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(25%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal !important;
+  line-height: 15px;
+  padding: 3px 8px 3px 24px;
+  margin: 20px 0;
+  position: relative;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  text-transform: none !important;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  width: 130px;
+}
+
+/* line 300, ../../sass/proty/proty-small.scss */
+#css-custom-editor {
+  display: none;
+  margin: 10px 0;
+}
+
+/* line 305, ../../sass/proty/proty-small.scss */
+.proty-design-class-custom #css-custom-editor {
+  display: block;
+}
+
+/* line 309, ../../sass/proty/proty-small.scss */
+#add-asset {
+  margin: 20px 0 10px 0;
+}
+
+/* line 313, ../../sass/proty/proty-small.scss */
+#list-assets {
+  margin: 10px 0 10px 0;
+}
+
+/* line 317, ../../sass/proty/proty-small.scss */
+#list-prims {
+  margin: 10px 0 20px 0;
+}
+
+/* line 321, ../../sass/proty/proty-small.scss */
+#export {
+  margin-top: 15px;
+}
+
+/* line 329, ../../sass/proty/proty-small.scss */
+.disabled #css-custom-editor,
+.disabled #export,
+.disabled #add-asset,
+.disabled #list-assets,
+.disabled #list-prims {
+  display: none;
+}
+
+/* line 342, ../../sass/proty/proty-small.scss */
+.editor-box .save:hover,
+.editor-box .close:hover,
+#edit-toggle:hover,
+#design-toggle:hover,
+#notes-toggle:hover,
+#css-custom-editor:hover,
+#add-asset:hover,
+#list-assets:hover,
+#list-prims:hover,
+#export:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* line 346, ../../sass/proty/proty-small.scss */
+#edit-toggle:hover {
+  background-position: 0 0;
+}
+
+/* line 351, ../../sass/proty/proty-small.scss */
+.editor-box .save,
+.editor-box .close {
+  display: inline-block;
+  margin: 5px 10px;
+  width: auto;
+}
+
+/* line 364, ../../sass/proty/proty-small.scss */
+.editor-box .save span,
+.editor-box .close span,
+#css-custom-editor span,
+#add-asset span,
+#list-assets span,
+#list-prims span,
+#export span,
+#metaedit span {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  height: 16px;
+  width: 16px;
+  font-family: Entypo;
+  color: #323232;
+  line-height: 6px;
+  font-size: 40px;
+}
+
+/* line 377, ../../sass/proty/proty-small.scss */
+button#edit-toggle span {
+  display: block;
+}
+/* line 379, ../../sass/proty/proty-small.scss */
+button#edit-toggle span.view:hover {
+  font-weight: 900 !important;
+}
+
+/* line 384, ../../sass/proty/proty-small.scss */
+.editor-box .save span {
+  font-size: 30px;
+  top: 4px;
+}
+
+/* line 389, ../../sass/proty/proty-small.scss */
+.editor-box .close span {
+  font-size: 30px;
+  left: 7px;
+  top: 4px;
+}
+
+/* line 395, ../../sass/proty/proty-small.scss */
+.editor-box textarea {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* line 399, ../../sass/proty/proty-small.scss */
+.editor-box-controls {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  width: 250px;
+}
+
+/* line 411, ../../sass/proty/proty-small.scss */
+#css-custom-editor span,
+#export span {
+  font-size: 30px;
+}
+
+/* line 417, ../../sass/proty/proty-small.scss */
+.notes-toggle-label,
+.design-toggle-label,
+.edit-toggle-label {
+  font-size: 14px;
+  line-height: 10px;
+  padding: 5px 3px 3px 3px;
+  text-align: center;
+}
+
+/* line 424, ../../sass/proty/proty-small.scss */
+.design-toggle-label {
+  padding-top: 10px;
+}
+
+/* line 429, ../../sass/proty/proty-small.scss */
+.notes-toggle-label,
+#notes-toggle {
+  display: block;
+}
+
+/* line 438, ../../sass/proty/proty-small.scss */
+#notes-toggle,
+#notes-toggle:hover,
+#design-toggle,
+#design-toggle:hover,
+#edit-toggle,
+#edit-toggle:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 2px 0 0px 0;
+  padding: 3px 3px;
+}
+
+/* line 444, ../../sass/proty/proty-small.scss */
+#edit-toggle span.edit {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 48%;
+}
+
+/* line 455, ../../sass/proty/proty-small.scss */
+#notes-toggle span.on,
+#notes-toggle span.off,
+#edit-toggle span.view {
+  border: 1px solid #333;
+  display: inline-block;
+  text-align: center;
+  width: 48%;
+}
+
+/* line 462, ../../sass/proty/proty-small.scss */
+.disabled #edit-toggle span.edit {
+  background: none;
+  color: #333;
+}
+
+/* line 469, ../../sass/proty/proty-small.scss */
+#notes-toggle span.off.active,
+#notes-toggle span.on.active,
+.disabled #edit-toggle span.view {
+  background: #333;
+  color: #fff;
+}
+
+/* line 474, ../../sass/proty/proty-small.scss */
+#design-toggle {
+  width: 122px;
+}
+
+/* line 480, ../../sass/proty/proty-small.scss */
+#design-toggle a.clean,
+#design-toggle a.sketch,
+#design-toggle a.custom {
+  border: 1px solid #333;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  width: 32%;
+}
+
+/* line 488, ../../sass/proty/proty-small.scss */
+#design-toggle a.clean {
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 498, ../../sass/proty/proty-small.scss */
+body.proty-design-class-custom #design-toggle a.clean,
+body.proty-design-class-custom #design-toggle a.sketch,
+body.proty-design-class-clean #design-toggle a.custom,
+body.proty-design-class-clean #design-toggle a.sketch,
+body.proty-design-class-sketch #design-toggle a.clean,
+body.proty-design-class-sketch #design-toggle a.custom {
+  background: none;
+  color: #333;
+}
+
+/* line 505, ../../sass/proty/proty-small.scss */
+body.proty-design-class-clean #design-toggle a.clean,
+body.proty-design-class-sketch #design-toggle a.sketch,
+body.proty-design-class-custom #design-toggle a.custom {
+  background: #333;
+  color: #fff;
+}
+
+/* line 510, ../../sass/proty/proty-small.scss */
+#asset-list-container {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  max-height: 275px;
+  overflow: auto;
+}
+
+/* line 516, ../../sass/proty/proty-small.scss */
+#asset-list {
+  background-color: #f6f6ee;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 100%;
+  margin: 0;
+  width: 100%;
+}
+/* line 524, ../../sass/proty/proty-small.scss */
+#asset-list tr:hover {
+  background-color: #f4f9b3;
+}
+/* line 527, ../../sass/proty/proty-small.scss */
+#asset-list .asset-controls {
+  vertical-align: middle;
+  width: 35px;
+}
+/* line 530, ../../sass/proty/proty-small.scss */
+#asset-list .asset-controls button {
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: Entypo;
+  font-size: 30px;
+  height: 25px;
+  line-height: 16px;
+  padding: 0;
+  position: relative;
+  margin: 2px 2px;
+  width: 25px;
+}
+/* line 542, ../../sass/proty/proty-small.scss */
+#asset-list .asset-controls button span {
+  left: 4px;
+  position: absolute;
+  top: -1px;
+}
+/* line 549, ../../sass/proty/proty-small.scss */
+#asset-list td.asset {
+  padding: 5px 10px;
+  width: 483px;
+  vertical-align: middle;
+}
+/* line 553, ../../sass/proty/proty-small.scss */
+#asset-list td.asset a {
+  color: #000;
+}
+
+/* line 559, ../../sass/proty/proty-small.scss */
+#size-toggle {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(25%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 15px;
+  margin: 2px 0 0px 0;
+  padding: 3px 3px;
+  position: relative;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  text-align: left;
+  width: 122px;
+}
+/* line 577, ../../sass/proty/proty-small.scss */
+#size-toggle:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* line 582, ../../sass/proty/proty-small.scss */
+.size-toggle-label {
+  display: block;
+  font-size: 14px;
+  line-height: 10px;
+  padding: 10px 3px 3px 3px;
+  text-align: center;
+}
+
+/* line 592, ../../sass/proty/proty-small.scss */
+#size-toggle a.small,
+#size-toggle a.medium,
+#size-toggle a.large {
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #333;
+  width: 32%;
+}
+
+/* line 600, ../../sass/proty/proty-small.scss */
+#size-toggle a.medium {
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 613, ../../sass/proty/proty-small.scss */
+html.small #size-toggle a.small,
+html.small #size-toggle a.medium,
+html.small #size-toggle a.large,
+html.medium #size-toggle a.medium,
+html.medium #size-toggle a.small,
+html.medium #size-toggle a.large,
+html.large #size-toggle a.medium,
+html.large #size-toggle a.small,
+html.large #size-toggle a.large {
+  color: #333;
+  background: none;
+}
+
+/* line 620, ../../sass/proty/proty-small.scss */
+html.small #size-toggle a.small,
+html.medium #size-toggle a.medium,
+html.large #size-toggle a.large {
+  background: #333;
+  color: #fff;
+}
+
+/* hide stuff */
+/* line 628, ../../sass/proty/proty-small.scss */
+.hide-tablet.thing {
+  opacity: 1.0 !important;
+}
+
+/* line 634, ../../sass/proty/proty-small.scss */
+.hide-desktop.thing {
+  opacity: 1.0 !important;
+}
+
+/* line 640, ../../sass/proty/proty-small.scss */
+.hide-smartphone.thing {
+  opacity: 0.2 !important;
+}
+
+/* line 645, ../../sass/proty/proty-small.scss */
+.disabled .hide-tablet {
+  display: block !important;
+}
+
+/* line 649, ../../sass/proty/proty-small.scss */
+.disabled .hide-desktop {
+  display: block !important;
+}
+
+/* line 653, ../../sass/proty/proty-small.scss */
+.disabled .hide-smartphone {
+  display: none !important;
+}
+
+/* section controls */
+/* line 659, ../../sass/proty/proty-small.scss */
+#section-container {
+  padding-left: 145px;
+}
+
+/* line 663, ../../sass/proty/proty-small.scss */
+ol#section-list {
+  background: #F6F6EE;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 200px;
+  list-style: none;
+  margin: 5px 0 15px 0px;
+  padding: 0;
+  overflow: auto;
+  width: 300px;
+}
+/* line 672, ../../sass/proty/proty-small.scss */
+ol#section-list li {
+  border-bottom: 1px solid #CCCCCC;
+  clear: both;
+  display: block;
+  float: left;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+/* line 680, ../../sass/proty/proty-small.scss */
+ol#section-list li:hover {
+  background-color: #f4f9b3;
+}
+/* line 683, ../../sass/proty/proty-small.scss */
+ol#section-list li a {
+  border: 0;
+  color: #15A5AE;
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 5px 8px;
+}
+/* line 690, ../../sass/proty/proty-small.scss */
+ol#section-list li a:hover {
+  color: #000;
+}
+/* line 694, ../../sass/proty/proty-small.scss */
+ol#section-list li button {
+  margin: 0 5px 0 0;
+}
+
+/* line 700, ../../sass/proty/proty-small.scss */
+.section-file-controls {
+  background-color: transparent !important;
+  display: none;
+  height: 21px;
+  margin-top: -12px;
+  padding: 1px 2px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  white-space: nowrap;
+  z-index: 200;
+}
+/* line 711, ../../sass/proty/proty-small.scss */
+ol#section-list li:hover .section-file-controls {
+  display: inline-block;
+}
+/* line 714, ../../sass/proty/proty-small.scss */
+.section-file-controls button {
+  display: block;
+  float: left;
+  font-family: Entypo;
+  font-size: 23px;
+  height: 19px;
+  line-height: 16px;
+  margin: 1px 1px;
+  padding: 0;
+  position: relative;
+  width: 19px;
+}
+/* line 725, ../../sass/proty/proty-small.scss */
+.section-file-controls button span {
+  color: #333;
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+
+/* line 734, ../../sass/proty/proty-small.scss */
+button.change {
+  display: inline-block;
+  font-family: Entypo;
+  font-size: 23px;
+  height: 19px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  padding: 0;
+  position: relative;
+  top: -3px;
+  width: 19px;
+}
+/* line 745, ../../sass/proty/proty-small.scss */
+button.change span {
+  color: #333;
+  left: 3px;
+  position: absolute;
+  top: -2px;
+}
+/* line 751, ../../sass/proty/proty-small.scss */
+button.change:active {
+  border-color: #333;
+}
+
+/* line 756, ../../sass/proty/proty-small.scss */
+button.new-section {
+  font-size: 12px;
+  left: 348px;
+  line-height: 15px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 36px;
+}
+
+/* primitive selectors */
+/* line 770, ../../sass/proty/proty-small.scss */
+#prims-toggle,
+#prims-toggle:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  display: block;
+  line-height: 16px;
+  margin: 2px auto 0 auto !important;
+  padding: 3px 3px;
+  position: relative;
+  text-align: left;
+  width: 400px;
+}
+
+/* line 783, ../../sass/proty/proty-small.scss */
+#prims-toggle span.global,
+#prims-toggle span.version {
+  border: 1px solid #333;
+  display: inline-block;
+  padding: 4px 0;
+  text-align: center;
+  width: 191px;
+}
+
+/* line 792, ../../sass/proty/proty-small.scss */
+#prims-toggle span.global.active,
+#prims-toggle span.version.active {
+  background: #333;
+  color: #fff;
+}
+
+/* line 797, ../../sass/proty/proty-small.scss */
+#version-prims {
+  display: none;
+}
+
+/* line 803, ../../sass/proty/proty-small.scss */
+#global-prims,
+#version-prims,
+#custom-prims {
+  padding-bottom: 25px;
+  padding-left: 88px;
+  position: relative;
+  min-height: 360px;
+}
+
+/* line 810, ../../sass/proty/proty-small.scss */
+#primitivelist .slider h2 {
+  background: #15A5AE;
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.0em;
+  color: #fff;
+  cursor: pointer;
+  padding: 3px 10px;
+  width: 110px;
+}
+/* line 819, ../../sass/proty/proty-small.scss */
+#primitivelist .slider h2:hover, #primitivelist .slider h2:focus {
+  background: #40BEC6;
+  color: #fff;
+}
+/* line 823, ../../sass/proty/proty-small.scss */
+#primitivelist .slider h2.on {
+  background: #F6F6EE;
+  color: #000;
+}
+
+/* line 831, ../../sass/proty/proty-small.scss */
+#global-prims .slider > ul,
+#version-prims .slider > ul,
+#custom-prims .slider > ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 365px;
+  width: 245px;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #F6F6EE;
+}
+
+/* line 846, ../../sass/proty/proty-small.scss */
+#global-prims .slider > ul ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 852, ../../sass/proty/proty-small.scss */
+#version-prims .slider > ul,
+#custom-prims .slider > ul {
+  display: block;
+  left: 90px;
+  margin-top: 10px;
+  width: 392px;
+}
+
+/* line 860, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li,
+#custom-prims .slider > ul li {
+  border-bottom: 1px solid #cccccc;
+  clear: both;
+  display: block;
+  float: left;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+/* line 870, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li:hover {
+  background-color: #f4f9b3;
+}
+
+/* line 874, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li.subsection {
+  background-color: #fff;
+  border: 0;
+}
+
+/* line 879, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li h3 {
+  font-family: Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  clear: both;
+  display: block;
+  float: left;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  padding: 6px 8px;
+  margin: 0;
+  color: #fff;
+  background: #277377;
+}
+
+/* line 896, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li a,
+#custom-prims .slider > ul li .custom-primitive {
+  color: #15A5AE;
+  font-size: 14px;
+  line-height: 14px;
+  border: 0;
+  display: block;
+  padding: 6px 8px;
+}
+
+/* line 905, ../../sass/proty/proty-small.scss */
+#custom-prims .slider > ul li .custom-primitive {
+  color: #333;
+}
+
+/* line 909, ../../sass/proty/proty-small.scss */
+#primitivelist .slider > ul li a:hover {
+  border: 0;
+  color: #000;
+}
+
+/* line 914, ../../sass/proty/proty-small.scss */
+.primitive-file-controls {
+  display: none;
+  height: 21px;
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  white-space: nowrap;
+  z-index: 200;
+}
+/* line 923, ../../sass/proty/proty-small.scss */
+#version-prims li:hover .primitive-file-controls, #custom-prims li:hover .primitive-file-controls {
+  display: inline-block;
+}
+/* line 926, ../../sass/proty/proty-small.scss */
+.primitive-file-controls button {
+  display: block !important;
+  float: left !important;
+  font-family: Entypo !important;
+  font-size: 23px !important;
+  height: 19px !important;
+  line-height: 16px !important;
+  margin: 1px 1px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: 19px !important;
+}
+/* line 937, ../../sass/proty/proty-small.scss */
+.primitive-file-controls button span {
+  color: #333 !important;
+  left: 3px !important;
+  position: absolute !important;
+  top: -2px !important;
+}
+/* line 943, ../../sass/proty/proty-small.scss */
+.primitive-file-controls button.delete span {
+  color: #cd4621 !important;
+}
+
+/* line 949, ../../sass/proty/proty-small.scss */
+#global-prims img {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  right: -200px;
+  top: 0;
+}
+
+/* column width selectors */
+/* line 964, ../../sass/proty/proty-small.scss */
+#columnwidthselector #width-selector-1,
+#columnwidthselector #width-selector-2,
+#columnwidthselector #width-selector-3,
+#columnwidthselector #width-selector-4,
+#columnwidthselector #width-selector-5 {
+  float: left;
+  margin-bottom: 20px;
+  width: 19%;
+}
+
+/* line 970, ../../sass/proty/proty-small.scss */
+#columnwidthselector-submit {
+  clear: both;
+  display: block;
+}
+
+/* text editor */
+/* line 979, ../../sass/proty/proty-small.scss */
+.CodeMirror {
+  height: 500px;
+  text-align: left;
+}
+
+/* line 984, ../../sass/proty/proty-small.scss */
+.editor-box {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+/* line 989, ../../sass/proty/proty-small.scss */
+.editor-box textarea {
+  border: 6px solid black;
+  padding: 10px;
+  resize: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 9px 10px rgba(90, 90, 90, 0.5);
+  -moz-box-shadow: 0 0 9px 10px rgba(90, 90, 90, 0.5);
+  box-shadow: 0 0 9px 10px rgba(90, 90, 90, 0.5);
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 998, ../../sass/proty/proty-small.scss */
+.editor-box button {
+  margin: 5px;
+}
+
+/* line 1002, ../../sass/proty/proty-small.scss */
+#EditAreaArroundInfos_texteditor label {
+  left: 5px;
+  position: relative;
+  top: -2px;
+}
+
+/* line 1008, ../../sass/proty/proty-small.scss */
+.CodeMirrorMarkedText {
+  background: #000 !important;
+  color: #444 !important;
+  padding: 1px 0;
+}
+
+/* modals */
+/* line 1018, ../../sass/proty/proty-small.scss */
+#osx-modal-content,
+#osx-modal-data {
+  display: none;
+}
+
+/* line 1022, ../../sass/proty/proty-small.scss */
+#osx-overlay {
+  background-color: #000;
+  cursor: wait;
+}
+
+/* line 1027, ../../sass/proty/proty-small.scss */
+#osx-container {
+  background-color: #eee;
+  -webkit-box-shadow: 0 2px 0 black;
+  -moz-box-shadow: 0 2px 0 black;
+  box-shadow: 0 2px 0 black;
+  color: #000;
+  font: 16px/24px Calibri,"Gill Sans","Gill Sans MT","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-bottom: 4px;
+  width: 600px;
+}
+/* line 1034, ../../sass/proty/proty-small.scss */
+#osx-container a {
+  color: #ddd;
+}
+/* line 1037, ../../sass/proty/proty-small.scss */
+#osx-container #osx-modal-title {
+  background-color: #383838;
+  color: #fff;
+  font-weight: normal;
+  padding: 6px 8px 6px 14px;
+}
+/* line 1043, ../../sass/proty/proty-small.scss */
+#osx-container .close {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 1048, ../../sass/proty/proty-small.scss */
+#osx-container .close a {
+  border: 0;
+  color: #ccc;
+  display: block;
+  font-weight: bold;
+  padding: 6px 12px 0;
+  text-decoration: none;
+}
+/* line 1055, ../../sass/proty/proty-small.scss */
+#osx-container .close a:hover {
+  border: 0;
+  color: #fff;
+}
+/* line 1061, ../../sass/proty/proty-small.scss */
+#osx-container #osx-modal-data {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+/* line 1065, ../../sass/proty/proty-small.scss */
+#osx-container h2 {
+  margin: 10px 0 6px;
+}
+/* line 1068, ../../sass/proty/proty-small.scss */
+#osx-container p {
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+/* line 1072, ../../sass/proty/proty-small.scss */
+#osx-container span {
+  color: #777;
+}
+/* line 1075, ../../sass/proty/proty-small.scss */
+#osx-container button {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin: 5px 0 0 5px;
+}
