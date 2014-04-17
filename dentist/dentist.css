@@ -1,0 +1,139 @@
+#top {
+	margin-top: 20px;
+	background-color: #036564; 
+	padding-bottom: 30px;
+}
+
+	#top h1 {
+		color: white;
+	}
+	
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+	color: #036564;
+}
+
+footer p {
+	color: #031634;
+}
+
+	footer p a {
+		color: #036564;
+	}
+
+.hero-unit {
+	background-color: #E8DDCB;
+	padding: 30px;
+	padding-bottom: 10px;
+}
+
+	.hero-unit h1, .hero-unit h2 {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.hero-unit h2 {
+		color: #036564;
+	}
+	
+	.hero-unit p {
+		color: #031634;
+		margin-bottom: 20px;
+	}
+
+.lead {
+	color: #031634;
+}
+
+#welcome {
+	padding-bottom: 10px;
+}
+
+#welcome h2, #home-contact h2, #home-guarantee h2, #dentist h2  {
+	margin-bottom: 10px;
+}
+
+#home-contact h3 {
+	margin-bottom: 5px;
+	color: #033649;
+}
+
+#home-hours h3 {
+	margin-bottom: 0px;
+}
+
+#home-guarantee {
+	background-color: #033649;
+}
+
+#home-guarantee .lead {
+	color: white;
+}
+	
+#meet-comevisitus, #meet-contact, #meet-hours { 
+	background-color: #033649;
+	color: white;
+}
+
+#meet-contact h2, #meet-hours h2, #meet-contact p, #meet-hours p { 
+ 	color: white;
+ }
+
+#meet-comevisitus {
+	padding-top: 56px;
+	padding-bottom: 56px;
+	text-align: center;
+}
+
+	#meet-comevisitus h1 {
+		color: white;
+		font-size: 210%;
+	}	
+
+#contact-office {
+	background-color: #033649;
+}
+
+	#contact-office h1 {
+		margin-top: 30px;
+		color: white;
+	}
+
+	#contact-office p {
+		color: white;
+	}
+
+	#contact-office .address {
+		margin-bottom: 5px;
+	}
+
+#images {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+	
+#contact-contact {
+	background-color: #033649;
+}
+
+	#contact-contact h1 {
+		margin-top: 20px;
+		color: white;
+	}
+
+	#contact-contact h2 {
+		color: ?;
+	}
+	
+	#contact-contact p {
+		color: white;
+	}
+
+#map_container, #tablet, #phone {
+	margin-bottom: 30px;
+}
+
+
+.carousel-caption h1 {
+	color: white;
+}
