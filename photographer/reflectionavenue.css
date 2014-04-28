@@ -103,7 +103,7 @@ body {
 	border-width: 0px;
 	padding: 10px;
 }
-	.thumbnail h3 {
+	.thumbnail h3 a {
 		color: #00868B;
 	}
 	
