@@ -104,12 +104,12 @@ body {
 	padding: 10px;
 }
 	.thumbnail h3 a {
-		color: #00868B;
+		color: white;
 	}
 	
 	.thumbnail a:hover {
 		text-decoration:none;
-		color: white;
+		color: #00868B;
 	}
 
 .btn-inverse {
