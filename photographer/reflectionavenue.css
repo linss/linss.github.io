@@ -99,13 +99,14 @@ body {
 }
 
 .thumbnail {
-	background-color: #00868B;
+	background-color: black;
 	border-width: 0px;
 	padding: 10px;
+	color: #00868B;
 }
 	.thumbnail a:hover {
 		text-decoration:none;
-		color: black;
+		color: white;
 	}
 
 .btn-inverse {
