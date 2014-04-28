@@ -703,9 +703,11 @@ They will appear if notes are enabled in demo mode or exported pages.  -->
           	<a href="./Blog-Post.html" class="feattitle">Featured Post</a>
 					</div>
          <p class="imagetopic"><span class="topic"> Category 1 </span></p>
+         <div class="featuredpostdiv">
          	<h3 class="imagetitle"><a href="./Blog-Post.html">Example Title</a></h3> 
 				  <p class="imagemeta">Posted by <a href="#">Author Name</a> on Day, Date</p>
           <p class="snippet"> Lorem ipsum dolor sit amet, consecteturs adipisicing eliti, sedi do eiusmodd tempori incididunt labore dolo.  Excepteur sint occaecat cupidatati, deserunt mollit anim est aborum. <a href="./Blog-Post.html">Read More &gt;&gt;</a></p>
+	</div>
 </div>
 <!-- END COMPONENT CONTENT -->
 
@@ -719,6 +721,29 @@ They will appear if notes are enabled in demo mode or exported pages.  -->
   position: relative;
   height: 19em;
   width: 100%;
+}
+
+.featuredpostdiv {
+	position: inherit;
+	top: 300px;
+}
+
+.medium .featuredpostdiv {
+	position: inherit;
+	top: 350px;
+}
+
+.medium .featuredpost {
+	margin-bottom: 30px;
+}
+
+.medium h3.imagetitle {
+	left: 0px;
+}
+
+.small .featuredpostdiv {
+	position: inherit;
+	top: 310px;
 }
 
 .featuredpostimage-html .image {
@@ -827,7 +852,7 @@ They will appear if notes are enabled in demo mode or exported pages.  -->
 
 .small .featuredpostimage-html .snippet {
 	position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   left: 0px;
   margin-bottom: 0px;
 }
