@@ -27,7 +27,7 @@ body {
 
 #title h1 {
 	font-size: 48px;
-	font-family: "Bookman Old Style", sans-serif;
+	font-family: "Bookman Old Style", bookman, sans-serif;
 	color: #a3ccc7;
 	position: absolute;
 	line-height: 0em;
